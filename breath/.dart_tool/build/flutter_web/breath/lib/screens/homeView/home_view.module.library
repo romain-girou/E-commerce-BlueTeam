@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["breath|lib/screens/LandingPage/LandingPage.dart","breath|lib/screens/NavigationBar/navigation_bar.dart","breath|lib/screens/centeredView/centered_view.dart","flutter|lib/material.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}
