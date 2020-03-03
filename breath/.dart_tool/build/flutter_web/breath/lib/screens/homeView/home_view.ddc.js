@@ -1,11 +1,9 @@
-define(['dart_sdk', 'packages/flutter/material', 'packages/breath/screens/centeredView/centered_view', 'packages/flutter/src/widgets/actions', 'packages/breath/screens/NavigationBar/navigation_bar', 'packages/breath/screens/LandingPage/LandingPage'], function(dart_sdk, packages__flutter__material, packages__breath__screens__centeredView__centered_view, packages__flutter__src__widgets__actions, packages__breath__screens__NavigationBar__navigation_bar, packages__breath__screens__LandingPage__LandingPage) {
+define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/breath/screens/NavigationBar/navigation_bar', 'packages/breath/screens/LandingPage/LandingPage'], function(dart_sdk, packages__flutter__src__widgets__actions, packages__breath__screens__NavigationBar__navigation_bar, packages__breath__screens__LandingPage__LandingPage) {
   'use strict';
   const core = dart_sdk.core;
   const _interceptors = dart_sdk._interceptors;
   const dart = dart_sdk.dart;
   const dartx = dart_sdk.dartx;
-  const scaffold = packages__flutter__material.src__material__scaffold;
-  const centered_view = packages__breath__screens__centeredView__centered_view.screens__centeredView__centered_view;
   const basic = packages__flutter__src__widgets__actions.src__widgets__basic;
   const widget_inspector = packages__flutter__src__widgets__actions.src__widgets__widget_inspector;
   const framework = packages__flutter__src__widgets__actions.src__widgets__framework;
@@ -23,8 +21,8 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/breath/screens/center
         __proto__: widget_inspector._Location.prototype,
         [_Location_parameterLocations]: C1 || CT.C1,
         [_Location_name]: null,
-        [_Location_column]: 15,
-        [_Location_line]: 15,
+        [_Location_column]: 9,
+        [_Location_line]: 13,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/homeView/home_view.dart"
       });
     },
@@ -33,8 +31,8 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/breath/screens/center
         __proto__: widget_inspector._Location.prototype,
         [_Location_parameterLocations]: C1 || CT.C1,
         [_Location_name]: null,
-        [_Location_column]: 13,
-        [_Location_line]: 16,
+        [_Location_column]: 9,
+        [_Location_line]: 14,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/homeView/home_view.dart"
       });
     },
@@ -43,8 +41,8 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/breath/screens/center
         __proto__: widget_inspector._Location.prototype,
         [_Location_parameterLocations]: null,
         [_Location_name]: "children",
-        [_Location_column]: 11,
-        [_Location_line]: 14,
+        [_Location_column]: 7,
+        [_Location_line]: 12,
         [_Location_file]: null
       });
     },
@@ -55,52 +53,6 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/breath/screens/center
       return C3 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         [_Location_parameterLocations]: C4 || CT.C4,
-        [_Location_name]: null,
-        [_Location_column]: 16,
-        [_Location_line]: 13,
-        [_Location_file]: "org-dartlang-app:///packages/breath/screens/homeView/home_view.dart"
-      });
-    },
-    get C8() {
-      return C8 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: null,
-        [_Location_name]: "child",
-        [_Location_column]: 9,
-        [_Location_line]: 13,
-        [_Location_file]: null
-      });
-    },
-    get C7() {
-      return C7 = dart.constList([C8 || CT.C8], widget_inspector._Location);
-    },
-    get C6() {
-      return C6 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: C7 || CT.C7,
-        [_Location_name]: null,
-        [_Location_column]: 13,
-        [_Location_line]: 12,
-        [_Location_file]: "org-dartlang-app:///packages/breath/screens/homeView/home_view.dart"
-      });
-    },
-    get C11() {
-      return C11 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: null,
-        [_Location_name]: "body",
-        [_Location_column]: 7,
-        [_Location_line]: 12,
-        [_Location_file]: null
-      });
-    },
-    get C10() {
-      return C10 = dart.constList([C11 || CT.C11], widget_inspector._Location);
-    },
-    get C9() {
-      return C9 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: C10 || CT.C10,
         [_Location_name]: null,
         [_Location_column]: 12,
         [_Location_line]: 11,
@@ -119,15 +71,9 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/breath/screens/center
   let C5;
   let C4;
   let C3;
-  let C8;
-  let C7;
-  let C6;
-  let C11;
-  let C10;
-  let C9;
   home_view.HomeView = class HomeView extends framework.StatelessWidget {
     build(context) {
-      return new scaffold.Scaffold.new({body: new centered_view.CenteredView.new({child: new basic.Column.new({children: JSArrayOfWidget().of([new navigation_bar.NavigationBar.new({$creationLocationd_0dea112b090073317d4: C0 || CT.C0}), new LandingPage.LandingPage.new({$creationLocationd_0dea112b090073317d4: C2 || CT.C2})]), $creationLocationd_0dea112b090073317d4: C3 || CT.C3}), $creationLocationd_0dea112b090073317d4: C6 || CT.C6}), $creationLocationd_0dea112b090073317d4: C9 || CT.C9});
+      return new basic.Column.new({children: JSArrayOfWidget().of([new navigation_bar.NavigationBar.new({$creationLocationd_0dea112b090073317d4: C0 || CT.C0}), new LandingPage.LandingPage.new({$creationLocationd_0dea112b090073317d4: C2 || CT.C2})]), $creationLocationd_0dea112b090073317d4: C3 || CT.C3});
     }
   };
   (home_view.HomeView.new = function(opts) {
@@ -144,7 +90,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/breath/screens/center
   dart.trackLibraries("packages/breath/screens/homeView/home_view", {
     "package:breath/screens/homeView/home_view.dart": home_view
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["home_view.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;UAS4B;AACxB,YAAO,kCACC,2CACG,gCACa,sBACd,6FACF;IAKV;;;;;;EACF","file":"home_view.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["home_view.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;UAS4B;AACxB,YAAO,iCACa,sBAChB,6FACA;IAGN;;;;;;EACF","file":"home_view.ddc.js"}');
   // Exports:
   return {
     screens__homeView__home_view: home_view
