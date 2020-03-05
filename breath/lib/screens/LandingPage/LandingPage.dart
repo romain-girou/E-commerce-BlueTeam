@@ -6,109 +6,102 @@ class LandingPage extends StatelessWidget {
   Widget build(BuildContext context) {
     double myPageHeight = MediaQuery.of(context).size.height - 100;
     double myPageWidth = MediaQuery.of(context).size.width;
-    return Container(
+    return Container( // Main screen
       height: myPageHeight,
       child: Column(
         children: <Widget>[
-          Container(
-            height: myPageHeight * (2/3),
-            color: Colors.red,
-            child: Row(
-              children: <Widget>[
-                Container(
-                  width: myPageWidth * (1/3),
-                  child: Center(
-                      child: Container(
-                        margin: EdgeInsets.all(8.0),
-                        child: Image.asset('assets/images/Bottle_transparent.png'),
-                      ),
-                  ),
-                ),
-                Container(
-                  width: myPageWidth * (2/3),
-                  // color: Colors.blue,
-                  child: Center(
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: <Widget>[
-                        Container(
-                          child: Text(
-                            'Purty at hand',
-                            style: TextStyle(
-                              fontFamily: 'Clarissa',
-                              fontSize: 150.0,
-                              //decoration: TextDecoration.underline,
-                            ),
-                          ),
-                        ),
-                        Container(
-                          child: Text(
-                            'Explore the air of the\n world from your home',
-                            textAlign: TextAlign.center,
-                            style: TextStyle(
-                              fontSize: 50.0,
-                              fontStyle: FontStyle.italic,
-                            ),
-                          ),
-                        ),
-                        RaisedButton (
-                          onPressed: () {},
-                          textColor: Colors.white,
-                          elevation: 5.0,
-                          padding: const EdgeInsets.all(0.0),
-                          child: Container(
-                            decoration: const BoxDecoration(
-                              gradient: LinearGradient(
-                                colors: <Color>[
-                                  Color(0xFFBFBFBF), // <=> Colors.grey[400]
-                                  // Color(0xFFEEEEEE), // <=> Colors.grey[200]
-                                  Color(0xFFE0E0E0), // <=> Colors.grey[300]
-                                  //Color(0xFF0D47A1),
-                                  //Color(0xFF1976D2),
-                                  //Color(0xFF42A5F5),
-                                ],
-                              ),
-                            ),
-                            padding: const EdgeInsets.all(15.0),
-                            child: const Text(
-                                'ORDER NOW',
-                                style: TextStyle(fontSize: 30)
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
-              ],
+          Container( // Title
+            margin: EdgeInsets.all(6.0),
+            padding: EdgeInsets.all(2.0),
+            child: Text(
+              'Breath: purty at hand',
+              style: TextStyle(
+                fontFamily: 'Clarissa',
+                fontSize: 150.0,
+              ),
             ),
           ),
-          Container(
-            color: Colors.green,
-            height: myPageHeight * (1/3),
-            width: myPageWidth,
-            child: Column(
-              children: <Widget>[
-                Bullet(
-                  'Prenium product',
-                  style: TextStyle(
-                    fontSize: 20.0,
-                  ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            children: <Widget>[
+              Container( // Image
+                width: myPageWidth-(0.6180339887498948*myPageWidth),
+                //color: Colors.red,
+                height: 450.0,
+                //margin: EdgeInsets.all(8.0),
+                child: Center(
+                    child: Image.asset('assets/images/Bottle_transparent.png'),
                 ),
-                Bullet(
-                  'High tracability',
-                  style: TextStyle(
-                    fontSize: 20.0,
-                  ),
+              ),
+              Container( //Text + button
+                //color: Colors.green,
+                width: 0.6180339887498948*myPageWidth,
+                height: 450.0,
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly, // Equal space between the children
+                  children: <Widget>[
+                    Container( // Slogan
+                      child: Text(
+                        'Explore the air of the world',
+                        style: TextStyle( // Bold text
+                            fontWeight: FontWeight.bold,
+                            fontSize: 60.0,
+                        ),
+                      ),
+                    ),
+                    Container( // Bullet points
+                      child: Column(
+                        children: <Widget>[
+                          Bullet(
+                            'Discover our large range of products',
+                            style: TextStyle(
+                              fontSize: 20,
+                            ),
+                          ),
+                          Bullet(
+                            'Bottles of air from all around the world',
+                            style: TextStyle(
+                              fontSize: 20,
+                            ),
+                          ),
+                          Bullet(
+                            'High tracability',
+                            style: TextStyle(
+                              fontSize: 20,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    RaisedButton ( // Order button
+                      onPressed: () {},
+                      textColor: Colors.white,
+                      elevation: 5.0,
+                      padding: const EdgeInsets.all(0.0),
+                      child: Container(
+                        decoration: const BoxDecoration(
+                          gradient: LinearGradient(
+                            colors: <Color>[
+                              Color(0xFFBFBFBF), // <=> Colors.grey[400]
+                              // Color(0xFFEEEEEE), // <=> Colors.grey[200]
+                              Color(0xFFE0E0E0), // <=> Colors.grey[300]
+                              //Color(0xFF0D47A1),
+                              //Color(0xFF1976D2),
+                              //Color(0xFF42A5F5),
+                            ],
+                          ),
+                        ),
+                        padding: const EdgeInsets.all(15.0),
+                        child: const Text(
+                            'ORDER NOW',
+                            style: TextStyle(fontSize: 30)
+                        ),
+                      ),
+                    ),
+                  ],
                 ),
-                Bullet(
-                  'Wonderful gift',
-                  style: TextStyle(
-                    fontSize: 20.0,
-                  ),
-                ),
-              ],
-            ),
+              ),
+            ],
           ),
         ],
       ),

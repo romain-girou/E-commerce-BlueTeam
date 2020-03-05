@@ -11,7 +11,7 @@ class _NavigationBarState extends State<NavigationBar> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.yellow,
+      //color: Colors.yellow,
       height: 100,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,

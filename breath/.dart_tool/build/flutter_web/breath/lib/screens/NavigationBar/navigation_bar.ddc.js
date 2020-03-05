@@ -1,4 +1,4 @@
-define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/material', 'packages/flutter/src/rendering/animated_size'], function(dart_sdk, packages__flutter__src__widgets__actions, packages__flutter__material, packages__flutter__src__rendering__animated_size) {
+define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/src/rendering/animated_size', 'packages/flutter/material'], function(dart_sdk, packages__flutter__src__widgets__actions, packages__flutter__src__rendering__animated_size, packages__flutter__material) {
   'use strict';
   const core = dart_sdk.core;
   const _interceptors = dart_sdk._interceptors;
@@ -10,10 +10,9 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/ma
   const image = packages__flutter__src__widgets__actions.src__widgets__image;
   const widget_inspector = packages__flutter__src__widgets__actions.src__widgets__widget_inspector;
   const icon = packages__flutter__src__widgets__actions.src__widgets__icon;
-  const colors = packages__flutter__material.src__material__colors;
+  const flex = packages__flutter__src__rendering__animated_size.src__rendering__flex;
   const flat_button = packages__flutter__material.src__material__flat_button;
   const icons = packages__flutter__material.src__material__icons;
-  const flex = packages__flutter__src__rendering__animated_size.src__rendering__flex;
   const navigation_bar = Object.create(dart.library);
   let JSArrayOfWidget = () => (JSArrayOfWidget = dart.constFn(_interceptors.JSArray$(framework.Widget)))();
   const CT = Object.create(null);
@@ -289,24 +288,14 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/ma
       return C35 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         [_Location_parameterLocations]: null,
-        [_Location_name]: "color",
-        [_Location_column]: 7,
-        [_Location_line]: 14,
-        [_Location_file]: null
-      });
-    },
-    get C36() {
-      return C36 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: null,
         [_Location_name]: "height",
         [_Location_column]: 7,
         [_Location_line]: 15,
         [_Location_file]: null
       });
     },
-    get C37() {
-      return C37 = dart.const({
+    get C36() {
+      return C36 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         [_Location_parameterLocations]: null,
         [_Location_name]: "child",
@@ -316,7 +305,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/ma
       });
     },
     get C34() {
-      return C34 = dart.constList([C35 || CT.C35, C36 || CT.C36, C37 || CT.C37], widget_inspector._Location);
+      return C34 = dart.constList([C35 || CT.C35, C36 || CT.C36], widget_inspector._Location);
     },
     get C33() {
       return C33 = dart.const({
@@ -385,12 +374,11 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/ma
   let C29;
   let C35;
   let C36;
-  let C37;
   let C34;
   let C33;
   navigation_bar._NavigationBarState = class _NavigationBarState extends framework.State$(navigation_bar.NavigationBar) {
     build(context) {
-      return new container.Container.new({color: colors.Colors.yellow, height: 100.0, child: new basic.Row.new({mainAxisAlignment: flex.MainAxisAlignment.spaceBetween, children: JSArrayOfWidget().of([new basic.SizedBox.new({height: 80.0, width: 150.0, child: new image.Image.asset("assets/images/breath_logo.png", {$creationLocationd_0dea112b090073317d4: C0 || CT.C0}), $creationLocationd_0dea112b090073317d4: C3 || CT.C3}), new basic.Row.new({mainAxisSize: flex.MainAxisSize.min, children: JSArrayOfWidget().of([new flat_button.FlatButton.new({onPressed: null, child: new icon.Icon.new(icons.Icons.shopping_basket, {$creationLocationd_0dea112b090073317d4: C8 || CT.C8}), $creationLocationd_0dea112b090073317d4: C11 || CT.C11}), new basic.SizedBox.new({width: 60.0, $creationLocationd_0dea112b090073317d4: C15 || CT.C15}), new flat_button.FlatButton.new({onPressed: null, child: new icon.Icon.new(icons.Icons.person, {$creationLocationd_0dea112b090073317d4: C18 || CT.C18}), $creationLocationd_0dea112b090073317d4: C21 || CT.C21})]), $creationLocationd_0dea112b090073317d4: C25 || CT.C25})]), $creationLocationd_0dea112b090073317d4: C29 || CT.C29}), $creationLocationd_0dea112b090073317d4: C33 || CT.C33});
+      return new container.Container.new({height: 100.0, child: new basic.Row.new({mainAxisAlignment: flex.MainAxisAlignment.spaceBetween, children: JSArrayOfWidget().of([new basic.SizedBox.new({height: 80.0, width: 150.0, child: new image.Image.asset("assets/images/breath_logo.png", {$creationLocationd_0dea112b090073317d4: C0 || CT.C0}), $creationLocationd_0dea112b090073317d4: C3 || CT.C3}), new basic.Row.new({mainAxisSize: flex.MainAxisSize.min, children: JSArrayOfWidget().of([new flat_button.FlatButton.new({onPressed: null, child: new icon.Icon.new(icons.Icons.shopping_basket, {$creationLocationd_0dea112b090073317d4: C8 || CT.C8}), $creationLocationd_0dea112b090073317d4: C11 || CT.C11}), new basic.SizedBox.new({width: 60.0, $creationLocationd_0dea112b090073317d4: C15 || CT.C15}), new flat_button.FlatButton.new({onPressed: null, child: new icon.Icon.new(icons.Icons.person, {$creationLocationd_0dea112b090073317d4: C18 || CT.C18}), $creationLocationd_0dea112b090073317d4: C21 || CT.C21})]), $creationLocationd_0dea112b090073317d4: C25 || CT.C25})]), $creationLocationd_0dea112b090073317d4: C29 || CT.C29}), $creationLocationd_0dea112b090073317d4: C33 || CT.C33});
     }
   };
   (navigation_bar._NavigationBarState.new = function() {
@@ -406,7 +394,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/ma
   dart.trackLibraries("packages/breath/screens/NavigationBar/navigation_bar", {
     "package:breath/screens/NavigationBar/navigation_bar.dart": navigation_bar
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["navigation_bar.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAMuC;IAAqB;;;;;;EAC5D;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;UAI4B;AACxB,YAAO,qCACS,8BACN,cACD,sCACgC,+CACnB,sBAChB,gCACU,aACD,cACM,sBAAM,gJAErB,iCAC6B,iCACT,sBAChB,2CACa,aACJ,kBACC,8IAGV,+BAAgB,+DAChB,2CACa,aACJ,kBACC;IAQtB;;;;;EACF","file":"navigation_bar.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["navigation_bar.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAMuC;IAAqB;;;;;;EAC5D;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;UAI4B;AACxB,YAAO,sCAEG,cACD,sCACgC,+CACnB,sBAChB,gCACU,aACD,cACM,sBAAM,gJAErB,iCAC6B,iCACT,sBAChB,2CACa,aACJ,kBACC,8IAGV,+BAAgB,+DAChB,2CACa,aACJ,kBACC;IAQtB;;;;;EACF","file":"navigation_bar.ddc.js"}');
   // Exports:
   return {
     screens__NavigationBar__navigation_bar: navigation_bar
