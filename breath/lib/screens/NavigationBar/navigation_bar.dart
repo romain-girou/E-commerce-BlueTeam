@@ -11,7 +11,7 @@ class _NavigationBarState extends State<NavigationBar> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.amber,
+      color: Colors.yellow,
       height: 100,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -19,7 +19,7 @@ class _NavigationBarState extends State<NavigationBar> {
           SizedBox(
             height: 80,
             width: 150,
-            child: Image.asset('assets/breath.png'),
+            child: Image.asset('assets/images/breath_logo.png'),
           ),
           Row(
             mainAxisSize: MainAxisSize.min,

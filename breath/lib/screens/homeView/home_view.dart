@@ -8,11 +8,13 @@ import '../centeredView/centered_view.dart';
 class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: <Widget>[
-        NavigationBar(),
-        LandingPage(),
-      ],
+    return Scaffold(
+      body: Column(
+        children: <Widget>[
+          NavigationBar(),
+          LandingPage(),
+        ],
+      ),
     );
   }
 }
