@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["flutter|lib/widgets.dart"],"parts":["auto_size_text|lib/src/auto_size_text.dart","auto_size_text|lib/src/auto_size_group.dart"],"conditionalDeps":[],"sdkDeps":["async"],"hasMain":false}

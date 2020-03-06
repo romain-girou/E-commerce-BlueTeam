@@ -13,6 +13,7 @@ class _NavigationBarState extends State<NavigationBar> {
     return Container(
       //color: Colors.yellow,
       height: 100,
+
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[

@@ -53,6 +53,7 @@ var baseUrl = (function () {
 
 let modulePaths = {
  "dart_sdk": "packages/build_web_compilers/src/dev_compiler/dart_sdk",
+ "packages/auto_size_text/auto_size_text": "packages/auto_size_text/auto_size_text.ddc",
  "packages/breath/main": "packages/breath/main.ddc",
  "packages/breath/main_web_entrypoint": "packages/breath/main_web_entrypoint.ddc",
  "packages/breath/screens/LandingPage/LandingPage": "packages/breath/screens/LandingPage/LandingPage.ddc",
