@@ -1,3 +1,4 @@
+import 'package:breath/routes/routes_names.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:auto_size_text/auto_size_text.dart';
@@ -106,7 +107,7 @@ class LandingPage extends StatelessWidget {
                       ),
                     ),
                     RaisedButton ( // Order button
-                      onPressed: () {},
+                      onPressed: () {Navigator.pushNamed(context, SignInRoute);},
                       textColor: Colors.white,
                       elevation: 3.0,
                       padding: const EdgeInsets.all(0.0),

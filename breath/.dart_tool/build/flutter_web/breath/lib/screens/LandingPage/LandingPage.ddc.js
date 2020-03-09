@@ -12,6 +12,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
   const image = packages__flutter__src__widgets__actions.src__widgets__image;
   const text = packages__flutter__src__widgets__actions.src__widgets__text;
   const framework = packages__flutter__src__widgets__actions.src__widgets__framework;
+  const navigator = packages__flutter__src__widgets__actions.src__widgets__navigator;
   const box_decoration = packages__flutter__src__painting___network_image_web.src__painting__box_decoration;
   const decoration_image = packages__flutter__src__painting___network_image_web.src__painting__decoration_image;
   const image_resolution = packages__flutter__src__painting___network_image_web.src__painting__image_resolution;
@@ -41,7 +42,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "textSpan",
         [_Location_column]: 15,
-        [_Location_line]: 24,
+        [_Location_line]: 25,
         [_Location_file]: null
       });
     },
@@ -51,7 +52,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "style",
         [_Location_column]: 15,
-        [_Location_line]: 47,
+        [_Location_line]: 48,
         [_Location_file]: null
       });
     },
@@ -61,7 +62,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "minFontSize",
         [_Location_column]: 15,
-        [_Location_line]: 48,
+        [_Location_line]: 49,
         [_Location_file]: null
       });
     },
@@ -71,7 +72,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "stepGranularity",
         [_Location_column]: 15,
-        [_Location_line]: 49,
+        [_Location_line]: 50,
         [_Location_file]: null
       });
     },
@@ -81,7 +82,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "textAlign",
         [_Location_column]: 15,
-        [_Location_line]: 50,
+        [_Location_line]: 51,
         [_Location_file]: null
       });
     },
@@ -94,7 +95,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: C1 || CT.C1,
         [_Location_name]: null,
         [_Location_column]: 33,
-        [_Location_line]: 23,
+        [_Location_line]: 24,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/LandingPage/LandingPage.dart"
       });
     },
@@ -104,7 +105,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "width",
         [_Location_column]: 13,
-        [_Location_line]: 21,
+        [_Location_line]: 22,
         [_Location_file]: null
       });
     },
@@ -114,7 +115,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "height",
         [_Location_column]: 13,
-        [_Location_line]: 22,
+        [_Location_line]: 23,
         [_Location_file]: null
       });
     },
@@ -124,7 +125,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "child",
         [_Location_column]: 13,
-        [_Location_line]: 23,
+        [_Location_line]: 24,
         [_Location_file]: null
       });
     },
@@ -137,7 +138,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: C8 || CT.C8,
         [_Location_name]: null,
         [_Location_column]: 11,
-        [_Location_line]: 20,
+        [_Location_line]: 21,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/LandingPage/LandingPage.dart"
       });
     },
@@ -147,7 +148,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "name",
         [_Location_column]: 38,
-        [_Location_line]: 63,
+        [_Location_line]: 64,
         [_Location_file]: null
       });
     },
@@ -160,7 +161,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: C13 || CT.C13,
         [_Location_name]: null,
         [_Location_column]: 32,
-        [_Location_line]: 63,
+        [_Location_line]: 64,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/LandingPage/LandingPage.dart"
       });
     },
@@ -170,7 +171,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "child",
         [_Location_column]: 19,
-        [_Location_line]: 63,
+        [_Location_line]: 64,
         [_Location_file]: null
       });
     },
@@ -183,7 +184,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: C16 || CT.C16,
         [_Location_name]: null,
         [_Location_column]: 24,
-        [_Location_line]: 62,
+        [_Location_line]: 63,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/LandingPage/LandingPage.dart"
       });
     },
@@ -193,7 +194,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "width",
         [_Location_column]: 17,
-        [_Location_line]: 58,
+        [_Location_line]: 59,
         [_Location_file]: null
       });
     },
@@ -203,7 +204,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "height",
         [_Location_column]: 17,
-        [_Location_line]: 60,
+        [_Location_line]: 61,
         [_Location_file]: null
       });
     },
@@ -213,7 +214,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "child",
         [_Location_column]: 17,
-        [_Location_line]: 62,
+        [_Location_line]: 63,
         [_Location_file]: null
       });
     },
@@ -226,7 +227,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: C19 || CT.C19,
         [_Location_name]: null,
         [_Location_column]: 15,
-        [_Location_line]: 57,
+        [_Location_line]: 58,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/LandingPage/LandingPage.dart"
       });
     },
@@ -236,7 +237,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "data",
         [_Location_column]: 25,
-        [_Location_line]: 76,
+        [_Location_line]: 77,
         [_Location_file]: null
       });
     },
@@ -246,7 +247,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "style",
         [_Location_column]: 25,
-        [_Location_line]: 77,
+        [_Location_line]: 78,
         [_Location_file]: null
       });
     },
@@ -259,7 +260,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: C24 || CT.C24,
         [_Location_name]: null,
         [_Location_column]: 30,
-        [_Location_line]: 75,
+        [_Location_line]: 76,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/LandingPage/LandingPage.dart"
       });
     },
@@ -269,7 +270,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "child",
         [_Location_column]: 23,
-        [_Location_line]: 75,
+        [_Location_line]: 76,
         [_Location_file]: null
       });
     },
@@ -282,7 +283,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: C28 || CT.C28,
         [_Location_name]: null,
         [_Location_column]: 21,
-        [_Location_line]: 74,
+        [_Location_line]: 75,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/LandingPage/LandingPage.dart"
       });
     },
@@ -292,7 +293,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "data",
         [_Location_column]: 29,
-        [_Location_line]: 88,
+        [_Location_line]: 89,
         [_Location_file]: null
       });
     },
@@ -302,7 +303,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "style",
         [_Location_column]: 29,
-        [_Location_line]: 89,
+        [_Location_line]: 90,
         [_Location_file]: null
       });
     },
@@ -315,7 +316,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: C31 || CT.C31,
         [_Location_name]: null,
         [_Location_column]: 27,
-        [_Location_line]: 87,
+        [_Location_line]: 88,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/LandingPage/LandingPage.dart"
       });
     },
@@ -325,7 +326,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "data",
         [_Location_column]: 29,
-        [_Location_line]: 94,
+        [_Location_line]: 95,
         [_Location_file]: null
       });
     },
@@ -335,7 +336,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "style",
         [_Location_column]: 29,
-        [_Location_line]: 95,
+        [_Location_line]: 96,
         [_Location_file]: null
       });
     },
@@ -348,7 +349,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: C35 || CT.C35,
         [_Location_name]: null,
         [_Location_column]: 27,
-        [_Location_line]: 93,
+        [_Location_line]: 94,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/LandingPage/LandingPage.dart"
       });
     },
@@ -358,7 +359,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "data",
         [_Location_column]: 29,
-        [_Location_line]: 100,
+        [_Location_line]: 101,
         [_Location_file]: null
       });
     },
@@ -368,7 +369,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "style",
         [_Location_column]: 29,
-        [_Location_line]: 101,
+        [_Location_line]: 102,
         [_Location_file]: null
       });
     },
@@ -381,7 +382,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: C39 || CT.C39,
         [_Location_name]: null,
         [_Location_column]: 27,
-        [_Location_line]: 99,
+        [_Location_line]: 100,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/LandingPage/LandingPage.dart"
       });
     },
@@ -391,7 +392,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "crossAxisAlignment",
         [_Location_column]: 25,
-        [_Location_line]: 85,
+        [_Location_line]: 86,
         [_Location_file]: null
       });
     },
@@ -401,7 +402,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "children",
         [_Location_column]: 25,
-        [_Location_line]: 86,
+        [_Location_line]: 87,
         [_Location_file]: null
       });
     },
@@ -414,7 +415,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: C43 || CT.C43,
         [_Location_name]: null,
         [_Location_column]: 30,
-        [_Location_line]: 84,
+        [_Location_line]: 85,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/LandingPage/LandingPage.dart"
       });
     },
@@ -424,7 +425,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "child",
         [_Location_column]: 23,
-        [_Location_line]: 84,
+        [_Location_line]: 85,
         [_Location_file]: null
       });
     },
@@ -437,7 +438,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: C47 || CT.C47,
         [_Location_name]: null,
         [_Location_column]: 21,
-        [_Location_line]: 83,
+        [_Location_line]: 84,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/LandingPage/LandingPage.dart"
       });
     },
@@ -579,7 +580,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "decoration",
         [_Location_column]: 25,
-        [_Location_line]: 117,
+        [_Location_line]: 118,
         [_Location_file]: null
       });
     },
@@ -589,7 +590,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "padding",
         [_Location_column]: 25,
-        [_Location_line]: 139,
+        [_Location_line]: 140,
         [_Location_file]: null
       });
     },
@@ -599,7 +600,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "child",
         [_Location_column]: 25,
-        [_Location_line]: 140,
+        [_Location_line]: 141,
         [_Location_file]: null
       });
     },
@@ -612,7 +613,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: C63 || CT.C63,
         [_Location_name]: null,
         [_Location_column]: 30,
-        [_Location_line]: 116,
+        [_Location_line]: 117,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/LandingPage/LandingPage.dart"
       });
     },
@@ -622,7 +623,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "onPressed",
         [_Location_column]: 23,
-        [_Location_line]: 109,
+        [_Location_line]: 110,
         [_Location_file]: null
       });
     },
@@ -632,7 +633,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "textColor",
         [_Location_column]: 23,
-        [_Location_line]: 110,
+        [_Location_line]: 111,
         [_Location_file]: null
       });
     },
@@ -642,7 +643,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "elevation",
         [_Location_column]: 23,
-        [_Location_line]: 111,
+        [_Location_line]: 112,
         [_Location_file]: null
       });
     },
@@ -652,7 +653,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "padding",
         [_Location_column]: 23,
-        [_Location_line]: 112,
+        [_Location_line]: 113,
         [_Location_file]: null
       });
     },
@@ -662,7 +663,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "shape",
         [_Location_column]: 23,
-        [_Location_line]: 113,
+        [_Location_line]: 114,
         [_Location_file]: null
       });
     },
@@ -672,7 +673,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "child",
         [_Location_column]: 23,
-        [_Location_line]: 116,
+        [_Location_line]: 117,
         [_Location_file]: null
       });
     },
@@ -685,7 +686,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: C68 || CT.C68,
         [_Location_name]: null,
         [_Location_column]: 21,
-        [_Location_line]: 108,
+        [_Location_line]: 109,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/LandingPage/LandingPage.dart"
       });
     },
@@ -695,7 +696,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "mainAxisAlignment",
         [_Location_column]: 19,
-        [_Location_line]: 72,
+        [_Location_line]: 73,
         [_Location_file]: null
       });
     },
@@ -705,7 +706,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "children",
         [_Location_column]: 19,
-        [_Location_line]: 73,
+        [_Location_line]: 74,
         [_Location_file]: null
       });
     },
@@ -718,7 +719,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: C76 || CT.C76,
         [_Location_name]: null,
         [_Location_column]: 24,
-        [_Location_line]: 71,
+        [_Location_line]: 72,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/LandingPage/LandingPage.dart"
       });
     },
@@ -728,7 +729,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "width",
         [_Location_column]: 17,
-        [_Location_line]: 68,
+        [_Location_line]: 69,
         [_Location_file]: null
       });
     },
@@ -738,7 +739,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "height",
         [_Location_column]: 17,
-        [_Location_line]: 69,
+        [_Location_line]: 70,
         [_Location_file]: null
       });
     },
@@ -748,7 +749,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "child",
         [_Location_column]: 17,
-        [_Location_line]: 71,
+        [_Location_line]: 72,
         [_Location_file]: null
       });
     },
@@ -761,7 +762,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: C80 || CT.C80,
         [_Location_name]: null,
         [_Location_column]: 15,
-        [_Location_line]: 66,
+        [_Location_line]: 67,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/LandingPage/LandingPage.dart"
       });
     },
@@ -771,7 +772,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "mainAxisAlignment",
         [_Location_column]: 13,
-        [_Location_line]: 55,
+        [_Location_line]: 56,
         [_Location_file]: null
       });
     },
@@ -781,7 +782,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "children",
         [_Location_column]: 13,
-        [_Location_line]: 56,
+        [_Location_line]: 57,
         [_Location_file]: null
       });
     },
@@ -794,7 +795,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: C85 || CT.C85,
         [_Location_name]: null,
         [_Location_column]: 11,
-        [_Location_line]: 54,
+        [_Location_line]: 55,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/LandingPage/LandingPage.dart"
       });
     },
@@ -804,7 +805,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "children",
         [_Location_column]: 9,
-        [_Location_line]: 19,
+        [_Location_line]: 20,
         [_Location_file]: null
       });
     },
@@ -817,7 +818,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: C89 || CT.C89,
         [_Location_name]: null,
         [_Location_column]: 14,
-        [_Location_line]: 18,
+        [_Location_line]: 19,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/LandingPage/LandingPage.dart"
       });
     },
@@ -827,7 +828,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "height",
         [_Location_column]: 7,
-        [_Location_line]: 11,
+        [_Location_line]: 12,
         [_Location_file]: null
       });
     },
@@ -837,7 +838,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "decoration",
         [_Location_column]: 7,
-        [_Location_line]: 12,
+        [_Location_line]: 13,
         [_Location_file]: null
       });
     },
@@ -847,7 +848,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: null,
         [_Location_name]: "child",
         [_Location_column]: 7,
-        [_Location_line]: 18,
+        [_Location_line]: 19,
         [_Location_file]: null
       });
     },
@@ -860,7 +861,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
         [_Location_parameterLocations]: C92 || CT.C92,
         [_Location_name]: null,
         [_Location_column]: 12,
-        [_Location_line]: 10,
+        [_Location_line]: 11,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/LandingPage/LandingPage.dart"
       });
     }
@@ -1031,6 +1032,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
       let myPageHeight = dart.notNull(media_query.MediaQuery.of(context).size.height) - 100;
       let myPageWidth = media_query.MediaQuery.of(context).size.width;
       return new container.Container.new({height: myPageHeight, decoration: new box_decoration.BoxDecoration.new({image: new decoration_image.DecorationImage.new({image: new image_resolution.AssetImage.new("assets/images/Air_wave.png"), fit: box_fit.BoxFit.cover})}), child: new basic.Column.new({children: JSArrayOfWidget().of([new basic.SizedBox.new({width: myPageWidth, height: myPageHeight * 0.25, child: new auto_size_text.AutoSizeText.rich(new text_span.TextSpan.new({children: JSArrayOfInlineSpan().of([new text_span.TextSpan.new({text: "Breath", style: new text_style.TextStyle.new({fontFamily: "Clarissa"})}), new text_span.TextSpan.new({text: ":", style: new text_style.TextStyle.new({fontFamily: "Bell MT"})}), new text_span.TextSpan.new({text: " purty at hand", style: new text_style.TextStyle.new({fontFamily: "Clarissa"})})])}), {style: new text_style.TextStyle.new({fontSize: 150.0, color: colors.Colors.black}), minFontSize: 0.0, stepGranularity: 0.1, textAlign: ui.TextAlign.center, $creationLocationd_0dea112b090073317d4: C0 || CT.C0}), $creationLocationd_0dea112b090073317d4: C7 || CT.C7}), new basic.Row.new({mainAxisAlignment: flex.MainAxisAlignment.spaceAround, children: JSArrayOfWidget().of([new container.Container.new({width: dart.notNull(myPageWidth) - 0.6180339887498948 * dart.notNull(myPageWidth), height: 450.0, child: new basic.Center.new({child: new image.Image.asset("assets/images/Bottle_transparent.png", {$creationLocationd_0dea112b090073317d4: C12 || CT.C12}), $creationLocationd_0dea112b090073317d4: C15 || CT.C15}), $creationLocationd_0dea112b090073317d4: C18 || CT.C18}), new container.Container.new({width: 0.6180339887498948 * dart.notNull(myPageWidth), height: 450.0, child: new basic.Column.new({mainAxisAlignment: flex.MainAxisAlignment.spaceEvenly, children: JSArrayOfWidget().of([new container.Container.new({child: new text.Text.new("Explore the air of the world", {style: new text_style.TextStyle.new({fontWeight: ui.FontWeight.bold, fontSize: 55.0}), $creationLocationd_0dea112b090073317d4: C23 || CT.C23}), $creationLocationd_0dea112b090073317d4: C27 || CT.C27}), new container.Container.new({child: new basic.Column.new({crossAxisAlignment: flex.CrossAxisAlignment.start, children: JSArrayOfWidget().of([new LandingPage.Bullet.new("Discover our large range of products", {style: new text_style.TextStyle.new({fontSize: 20.0}), $creationLocationd_0dea112b090073317d4: C30 || CT.C30}), new LandingPage.Bullet.new("Bottles of air from all around the world", {style: new text_style.TextStyle.new({fontSize: 20.0}), $creationLocationd_0dea112b090073317d4: C34 || CT.C34}), new LandingPage.Bullet.new("High tracability", {style: new text_style.TextStyle.new({fontSize: 20.0}), $creationLocationd_0dea112b090073317d4: C38 || CT.C38})]), $creationLocationd_0dea112b090073317d4: C42 || CT.C42}), $creationLocationd_0dea112b090073317d4: C46 || CT.C46}), new raised_button.RaisedButton.new({onPressed: dart.fn(() => {
+                          navigator.Navigator.pushNamed(core.Object, context, "/sign-in");
                         }, VoidToNull()), textColor: colors.Colors.white, elevation: 3.0, padding: C49 || CT.C49, shape: new rounded_rectangle_border.RoundedRectangleBorder.new({borderRadius: new border_radius.BorderRadius.circular(18.0)}), child: new container.Container.new({decoration: C50 || CT.C50, padding: C59 || CT.C59, child: C60 || CT.C60, $creationLocationd_0dea112b090073317d4: C62 || CT.C62}), $creationLocationd_0dea112b090073317d4: C67 || CT.C67})]), $creationLocationd_0dea112b090073317d4: C75 || CT.C75}), $creationLocationd_0dea112b090073317d4: C79 || CT.C79})]), $creationLocationd_0dea112b090073317d4: C84 || CT.C84})]), $creationLocationd_0dea112b090073317d4: C88 || CT.C88}), $creationLocationd_0dea112b090073317d4: C91 || CT.C91});
     }
   };
@@ -1066,7 +1068,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
   dart.trackLibraries("packages/breath/screens/LandingPage/LandingPage", {
     "package:breath/screens/LandingPage/LandingPage.dart": LandingPage
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["LandingPage.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;UAM4B;AACjB,yBAAkD,aAAxB,AAAY,AAAK,0BAAd,OAAO,iBAAgB;AACpD,wBAAyB,AAAY,AAAK,0BAAd,OAAO;AAC1C,YAAO,sCACG,YAAY,cACR,6CACH,iDACE,oCAAW,oCACN,iCAGT,gCACa,sBAChB,+BACS,WAAW,UACV,AAAY,YAAA,GAAC,aACD,qCAClB,sCACY,0BACR,kCACQ,iBACC,0CACO,gBAGhB,kCACQ,YACC,0CACO,eAGhB,kCACQ,yBACC,0CACO,4BAMb,wCAAoB,cAAmB,oCACjC,sBACI,gBACI,mIAIzB,sCACuC,8CACnB,sBAChB,oCACoB,aAAX,WAAW,IAAE,AAAkB,kCAAC,WAAW,WAE1C,cAED,6BACQ,sBAAM,oNAGvB,oCAES,AAAkB,kCAAC,WAAW,WAC7B,cAED,yCACgC,8CACnB,sBAChB,oCACS,kBACL,wCACO,0CACkB,8BACb,0HAIhB,oCACS,0CACkC,yCACrB,sBAChB,2BACE,gDACO,wCACK,iEAGd,2BACE,oDACO,wCACK,iEAGd,2BACE,4BACO,wCACK,qLAMpB,+CACa;qDACO,gCACP,oCAEJ,uEACe,wCAAsB,gBAErC;IAsC3B;;;;;;EACF;;;;;;;;qCAIa;QACD;QACM;QACA;QACI;QACP;QACF;QACQ;QACN;QACH;QACG;;AACJ,gDACP,AAAS,gBAAL,IAAI,SACH,GAAG,SACD,KAAK,aACD,SAAS,iBACL,aAAa,UACpB,MAAM,YACJ,QAAQ,YACR,QAAQ,mBACD,eAAe,YACtB,QAAQ,kBACF,cAAc;;EAC/B","file":"LandingPage.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["LandingPage.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;UAO4B;AACjB,yBAAkD,aAAxB,AAAY,AAAK,0BAAd,OAAO,iBAAgB;AACpD,wBAAyB,AAAY,AAAK,0BAAd,OAAO;AAC1C,YAAO,sCACG,YAAY,cACR,6CACH,iDACE,oCAAW,oCACN,iCAGT,gCACa,sBAChB,+BACS,WAAW,UACV,AAAY,YAAA,GAAC,aACD,qCAClB,sCACY,0BACR,kCACQ,iBACC,0CACO,gBAGhB,kCACQ,YACC,0CACO,eAGhB,kCACQ,yBACC,0CACO,4BAMb,wCAAoB,cAAmB,oCACjC,sBACI,gBACI,mIAIzB,sCACuC,8CACnB,sBAChB,oCACoB,aAAX,WAAW,IAAE,AAAkB,kCAAC,WAAW,WAE1C,cAED,6BACQ,sBAAM,oNAGvB,oCAES,AAAkB,kCAAC,WAAW,WAC7B,cAED,yCACgC,8CACnB,sBAChB,oCACS,kBACL,wCACO,0CACkB,8BACb,0HAIhB,oCACS,0CACkC,yCACrB,sBAChB,2BACE,gDACO,wCACK,iEAGd,2BACE,oDACO,wCACK,iEAGd,2BACE,4BACO,wCACK,qLAMpB,+CACa;AAA6C,0BAA/B,2CAAU,OAAO;qDACxB,gCACP,oCAEJ,uEACe,wCAAsB,gBAErC;IAsC3B;;;;;;EACF;;;;;;;;qCAIa;QACD;QACM;QACA;QACI;QACP;QACF;QACQ;QACN;QACH;QACG;;AACJ,gDACP,AAAS,gBAAL,IAAI,SACH,GAAG,SACD,KAAK,aACD,SAAS,iBACL,aAAa,UACpB,MAAM,YACJ,QAAQ,YACR,QAAQ,mBACD,eAAe,YACtB,QAAQ,kBACF,cAAc;;EAC/B","file":"LandingPage.ddc.js"}');
   // Exports:
   return {
     screens__LandingPage__LandingPage: LandingPage

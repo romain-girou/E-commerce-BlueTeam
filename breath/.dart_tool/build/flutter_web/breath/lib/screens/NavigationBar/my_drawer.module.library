@@ -1,1 +1,1 @@
-{"isEntrypoint":true,"deps":["flutter|lib/material.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}
+{"isEntrypoint":true,"deps":["breath|lib/routes/routes_names.dart","flutter|lib/material.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

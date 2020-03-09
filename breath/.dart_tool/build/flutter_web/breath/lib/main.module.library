@@ -1,1 +1,1 @@
-{"isEntrypoint":true,"deps":["breath|lib/screens/homeView/home_view.dart","flutter|lib/material.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":true}
+{"isEntrypoint":true,"deps":["breath|lib/routes/routes_names.dart","flutter|lib/material.dart","breath|lib/routes/router.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":true}

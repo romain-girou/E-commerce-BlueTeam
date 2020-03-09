@@ -1,3 +1,4 @@
+import 'package:breath/routes/routes_names.dart';
 import 'package:flutter/material.dart';
 
 class MyDrawer extends StatelessWidget {
@@ -8,12 +9,6 @@ class MyDrawer extends StatelessWidget {
           // Important: Remove any padding from the ListView.
           padding: EdgeInsets.zero,
           children: <Widget>[
-            DrawerHeader(
-              child: Text('Drawer Header'),
-              decoration: BoxDecoration(
-                color: Colors.red,
-              ),
-            ),
             ListTile(
               title: Center(child: Text('Collections')),
               onTap: () {
@@ -35,9 +30,7 @@ class MyDrawer extends StatelessWidget {
             ListTile(
               title: Center(child: Text('My account')),
               onTap: () {
-                // Update the state of the app
-                // ...
-                // Then close the drawer
+                Navigator.pushNamed(context, SignInRoute);
                 Navigator.pop(context);
               },
             )

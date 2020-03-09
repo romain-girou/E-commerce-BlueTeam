@@ -1,5 +1,6 @@
-import 'package:breath/screens/homeView/home_view.dart';
+import 'package:breath/routes/routes_names.dart';
 import 'package:flutter/material.dart';
+import 'package:breath/routes/router.dart' as router;
 
 void main() => runApp(MyApp());
 
@@ -13,11 +14,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      initialRoute: '/',
-      routes: {
-        '/': (context) => HomeView(),
-        // '/sign-in': (context) => SignIn(),
-      },
+      navigatorKey: locator().,
+      initialRoute: HomeRoute,
+      onGenerateRoute: router.generateRoute,
     );
   }
 }
