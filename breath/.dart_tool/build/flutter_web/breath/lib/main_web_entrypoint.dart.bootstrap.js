@@ -59,6 +59,8 @@ let modulePaths = {
  "packages/breath/routes/router": "packages/breath/routes/router.ddc",
  "packages/breath/routes/routes_names": "packages/breath/routes/routes_names.ddc",
  "packages/breath/screens/LandingPage/LandingPage": "packages/breath/screens/LandingPage/LandingPage.ddc",
+ "packages/breath/screens/LandingPage/landing_page_desktop": "packages/breath/screens/LandingPage/landing_page_desktop.ddc",
+ "packages/breath/screens/LandingPage/landing_page_mobile": "packages/breath/screens/LandingPage/landing_page_mobile.ddc",
  "packages/breath/screens/NavigationBar/my_app_bar": "packages/breath/screens/NavigationBar/my_app_bar.ddc",
  "packages/breath/screens/NavigationBar/my_drawer": "packages/breath/screens/NavigationBar/my_drawer.ddc",
  "packages/breath/screens/homeView/home_view": "packages/breath/screens/homeView/home_view.ddc",
@@ -91,6 +93,7 @@ let modulePaths = {
  "packages/flutter/src/widgets/actions": "packages/flutter/src/widgets/actions.ddc",
  "packages/flutter/widgets": "packages/flutter/widgets.ddc",
  "packages/meta/meta": "packages/meta/meta.ddc",
+ "packages/responsive_builder/responsive_builder": "packages/responsive_builder/responsive_builder.ddc",
  "packages/typed_data/typed_buffers": "packages/typed_data/typed_buffers.ddc",
  "packages/vector_math/hash": "packages/vector_math/hash.ddc",
  "packages/vector_math/vector_math_64": "packages/vector_math/vector_math_64.ddc"

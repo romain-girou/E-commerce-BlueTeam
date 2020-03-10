@@ -1,7 +1,10 @@
 import 'package:breath/screens/LandingPage/LandingPage.dart';
+import 'package:breath/screens/LandingPage/landing_page_desktop.dart';
+import 'package:breath/screens/LandingPage/landing_page_mobile.dart';
 import 'package:breath/screens/NavigationBar/my_drawer.dart';
 import 'package:breath/screens/NavigationBar/my_app_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:responsive_builder/responsive_builder.dart';
 
 class HomeView extends StatelessWidget {
 
@@ -10,7 +13,10 @@ class HomeView extends StatelessWidget {
     return Scaffold(
       appBar: MyAppBar(height: 100.0),
       endDrawer: MyDrawer(),
-      body: LandingPage(),
+      body: ScreenTypeLayout(
+        desktop: LandingPageDesktop(),
+        mobile: LandingPageMobile(),
+        ),
     );
   }
 }

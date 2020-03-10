@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      navigatorKey: locator().,
+      // navigatorKey: locator<NavigationService>().navigatorKey,
       initialRoute: HomeRoute,
       onGenerateRoute: router.generateRoute,
     );

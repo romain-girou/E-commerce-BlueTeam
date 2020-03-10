@@ -54,7 +54,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/breath/routes/router'
         [_Location_parameterLocations]: null,
         [_Location_name]: "initialRoute",
         [_Location_column]: 7,
-        [_Location_line]: 17,
+        [_Location_line]: 18,
         [_Location_file]: null
       });
     },
@@ -64,7 +64,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/breath/routes/router'
         [_Location_parameterLocations]: null,
         [_Location_name]: "onGenerateRoute",
         [_Location_column]: 7,
-        [_Location_line]: 18,
+        [_Location_line]: 19,
         [_Location_file]: null
       });
     },
@@ -132,7 +132,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/breath/routes/router'
   dart.trackLibraries("packages/breath/main", {
     "package:breath/main.dart": main
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["main.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;UAS4B;AACxB,YAAO,sDACuB,cACrB,iBACA,yCACiB;IAK5B;;;;;;EACF;;;;;;;;;;AAhBe,0BAAO;EAAQ","file":"main.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["main.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;UAS4B;AACxB,YAAO,sDACuB,cACrB,iBACA,yCACiB;IAM5B;;;;;;EACF;;;;;;;;;;AAjBe,0BAAO;EAAQ","file":"main.ddc.js"}');
   // Exports:
   return {
     main: main
