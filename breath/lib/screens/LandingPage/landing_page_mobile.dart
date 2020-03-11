@@ -19,42 +19,45 @@ class LandingPageMobile extends StatelessWidget {
       ),
       child: Column(
         children: <Widget>[
-            Container( // Title
-              color: Colors.blue,
-              margin: EdgeInsets.symmetric(horizontal: 0),
-              padding: EdgeInsets.symmetric(horizontal: 100),
-              height: myPageHeight*0.25,
-                child: AutoSizeText.rich(
-                  TextSpan(
-                    children: [
-                      TextSpan(
-                        text: 'Breath',
-                        style: TextStyle(
-                          fontFamily: 'Clarissa',
-                        ),
-                      ),
-                      TextSpan(
-                        text: ':',
-                        style: TextStyle(
-                          fontFamily: 'Bell MT',
-                        ),
-                      ),
-                      TextSpan(
-                        text: ' purty at hand',
-                        style: TextStyle(
-                          fontFamily: 'Clarissa',
-                        ),
-                      ),
-                    ],
-                  ),
-                  //maxLines: 1, // We ask all the title will be on one line
-                  style: TextStyle(fontSize: 150, color: Colors.black,),
-                  minFontSize: 0,
-                  stepGranularity: 0.1,
-                  textAlign: TextAlign.center,
-                ),
-              ),
-
+            // Container( // Title
+            //   padding: EdgeInsets.symmetric(horizontal: 20),
+            //   color: Colors.blue,
+            //   height: myPageHeight*0.25,
+            //     child: AutoSizeText.rich(
+            //       TextSpan(
+            //         children: [
+            //           TextSpan(
+            //             text: 'Breath',
+            //             style: TextStyle(
+            //               fontFamily: 'Clarissa',
+            //             ),
+            //           ),
+            //           TextSpan(
+            //             text: ',',
+            //             style: TextStyle(
+            //               fontFamily: 'Bell MT',
+            //               // fontWeight: FontWeight.normal,
+            //               // fontSize: 10.0
+            //             ),
+            //           ),
+            //           TextSpan(
+            //             text: ' purty at hand',
+            //             style: TextStyle(
+            //               fontFamily: 'Clarissa',
+            //             ),
+            //           ),
+            //         ],
+            //       ),
+            //       //maxLines: 1, // We ask all the title will be on one line
+            //       style: TextStyle(fontSize: 150, color: Colors.black,),
+            //       minFontSize: 40,
+            //       // maxFontSize: 100,
+            //       stepGranularity: 0.1,
+            //       textAlign: TextAlign.center,
+            //       maxLines: 1,
+            //     ),
+            //   ),
+          SizedBox(height: myPageHeight*0.10,),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: <Widget>[
@@ -71,13 +74,18 @@ class LandingPageMobile extends StatelessWidget {
                 //color: Colors.green,
                 width: 0.6180339887498948*myPageWidth,
                 height: 450.0,
+                padding: EdgeInsets.symmetric(horizontal: 10.0),
                 //padding: EdgeInsets.all(5.0),
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly, // Equal space between the children
                   children: <Widget>[
                     Container( // Slogan
-                      child: Text(
+                      child: AutoSizeText(
                         'Explore the air of the world',
+                        maxFontSize: 55,
+                        minFontSize: 40,
+                        maxLines: 2,
+                        textAlign: TextAlign.center,
                         style: TextStyle( // Bold text
                           fontWeight: FontWeight.bold,
                           fontSize: 55.0,

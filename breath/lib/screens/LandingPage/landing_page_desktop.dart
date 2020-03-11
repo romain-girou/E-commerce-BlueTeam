@@ -31,9 +31,11 @@ class LandingPageDesktop extends StatelessWidget {
                     ),
                   ),
                   TextSpan(
-                    text: ':',
+                    text: ',',
                     style: TextStyle(
                       fontFamily: 'Bell MT',
+                      fontWeight: FontWeight.normal,
+                      // fontSize: 50.0
                     ),
                   ),
                   TextSpan(
@@ -68,13 +70,18 @@ class LandingPageDesktop extends StatelessWidget {
                 //color: Colors.green,
                 width: 0.6180339887498948*myPageWidth,
                 height: 450.0,
+                padding: EdgeInsets.symmetric(horizontal: 10.0),
                 //padding: EdgeInsets.all(5.0),
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly, // Equal space between the children
                   children: <Widget>[
                     Container( // Slogan
-                      child: Text(
+                      child: AutoSizeText(
                         'Explore the air of the world',
+                        maxFontSize: 55,
+                        //minFontSize: 55,
+                        maxLines: 2,
+                        textAlign: TextAlign.center,
                         style: TextStyle( // Bold text
                           fontWeight: FontWeight.bold,
                           fontSize: 55.0,
