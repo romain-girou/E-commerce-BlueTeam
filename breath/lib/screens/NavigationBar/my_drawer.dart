@@ -21,9 +21,7 @@ class MyDrawer extends StatelessWidget {
             ListTile(
               title: Center(child: Text('About us')),
               onTap: () {
-                // Update the state of the app
-                // ...
-                // Then close the drawer
+                Navigator.pushNamed(context, SignInRoute);
                 Navigator.pop(context);
               },
             ),

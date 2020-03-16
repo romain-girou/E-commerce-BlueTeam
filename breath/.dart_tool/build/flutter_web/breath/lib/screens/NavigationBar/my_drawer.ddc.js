@@ -182,7 +182,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/a
         [_Location_parameterLocations]: null,
         [_Location_name]: "data",
         [_Location_column]: 41,
-        [_Location_line]: 31,
+        [_Location_line]: 29,
         [_Location_file]: null
       });
     },
@@ -195,7 +195,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/a
         [_Location_parameterLocations]: C21 || CT.C21,
         [_Location_name]: null,
         [_Location_column]: 36,
-        [_Location_line]: 31,
+        [_Location_line]: 29,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/NavigationBar/my_drawer.dart"
       });
     },
@@ -205,7 +205,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/a
         [_Location_parameterLocations]: null,
         [_Location_name]: "child",
         [_Location_column]: 29,
-        [_Location_line]: 31,
+        [_Location_line]: 29,
         [_Location_file]: null
       });
     },
@@ -218,7 +218,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/a
         [_Location_parameterLocations]: C24 || CT.C24,
         [_Location_name]: null,
         [_Location_column]: 22,
-        [_Location_line]: 31,
+        [_Location_line]: 29,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/NavigationBar/my_drawer.dart"
       });
     },
@@ -228,7 +228,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/a
         [_Location_parameterLocations]: null,
         [_Location_name]: "title",
         [_Location_column]: 15,
-        [_Location_line]: 31,
+        [_Location_line]: 29,
         [_Location_file]: null
       });
     },
@@ -238,7 +238,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/a
         [_Location_parameterLocations]: null,
         [_Location_name]: "onTap",
         [_Location_column]: 15,
-        [_Location_line]: 32,
+        [_Location_line]: 30,
         [_Location_file]: null
       });
     },
@@ -251,7 +251,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/a
         [_Location_parameterLocations]: C27 || CT.C27,
         [_Location_name]: null,
         [_Location_column]: 13,
-        [_Location_line]: 30,
+        [_Location_line]: 28,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/NavigationBar/my_drawer.dart"
       });
     },
@@ -359,6 +359,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/a
       return new drawer.Drawer.new({child: new scroll_view.ListView.new({padding: edge_insets.EdgeInsets.zero, children: JSArrayOfWidget().of([new list_tile.ListTile.new({title: new basic.Center.new({child: new text.Text.new("Collections", {$creationLocationd_0dea112b090073317d4: C0 || CT.C0}), $creationLocationd_0dea112b090073317d4: C3 || CT.C3}), onTap: dart.fn(() => {
                 navigator.Navigator.pop(core.Object, context);
               }, VoidToNull()), $creationLocationd_0dea112b090073317d4: C6 || CT.C6}), new list_tile.ListTile.new({title: new basic.Center.new({child: new text.Text.new("About us", {$creationLocationd_0dea112b090073317d4: C10 || CT.C10}), $creationLocationd_0dea112b090073317d4: C13 || CT.C13}), onTap: dart.fn(() => {
+                navigator.Navigator.pushNamed(core.Object, context, "/sign-in");
                 navigator.Navigator.pop(core.Object, context);
               }, VoidToNull()), $creationLocationd_0dea112b090073317d4: C16 || CT.C16}), new list_tile.ListTile.new({title: new basic.Center.new({child: new text.Text.new("My account", {$creationLocationd_0dea112b090073317d4: C20 || CT.C20}), $creationLocationd_0dea112b090073317d4: C23 || CT.C23}), onTap: dart.fn(() => {
                 navigator.Navigator.pushNamed(core.Object, context, "/sign-in");
@@ -380,7 +381,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/a
   dart.trackLibraries("packages/breath/screens/NavigationBar/my_drawer", {
     "package:breath/screens/NavigationBar/my_drawer.dart": my_drawer
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["my_drawer.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;UAK4B;AACxB,YAAO,+BACI,uCAEe,uCACF,sBAChB,mCACS,6BAAc,kBAAK,qIACnB;AAIiB,gBAAZ,qCAAI,OAAO;uFAGzB,mCACS,6BAAc,kBAAK,sIACnB;AAIiB,gBAAZ,qCAAI,OAAO;yFAGzB,mCACS,6BAAc,kBAAK,wIACnB;AACoC,gBAA/B,2CAAU,OAAO;AACL,gBAAZ,qCAAI,OAAO;;IAMnC;;;;;;EACF","file":"my_drawer.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["my_drawer.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;UAK4B;AACxB,YAAO,+BACI,uCAEe,uCACF,sBAChB,mCACS,6BAAc,kBAAK,qIACnB;AAIiB,gBAAZ,qCAAI,OAAO;uFAGzB,mCACS,6BAAc,kBAAK,sIACnB;AACoC,gBAA/B,2CAAU,OAAO;AACL,gBAAZ,qCAAI,OAAO;yFAGzB,mCACS,6BAAc,kBAAK,wIACnB;AACoC,gBAA/B,2CAAU,OAAO;AACL,gBAAZ,qCAAI,OAAO;;IAMnC;;;;;;EACF","file":"my_drawer.ddc.js"}');
   // Exports:
   return {
     screens__NavigationBar__my_drawer: my_drawer
