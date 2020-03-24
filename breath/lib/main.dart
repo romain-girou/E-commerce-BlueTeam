@@ -1,8 +1,12 @@
+import 'package:breath/routes/router.dart';
 import 'package:breath/routes/routes_names.dart';
 import 'package:flutter/material.dart';
-import 'package:breath/routes/router.dart' as router;
 
-void main() => runApp(MyApp());
+
+void main() {
+  FluroRouter.setupRouter();
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
@@ -16,7 +20,7 @@ class MyApp extends StatelessWidget {
       ),
       // navigatorKey: locator<NavigationService>().navigatorKey,
       initialRoute: HomeRoute,
-      onGenerateRoute: router.generateRoute,
+      onGenerateRoute: FluroRouter.router.generator,
     );
   }
 }

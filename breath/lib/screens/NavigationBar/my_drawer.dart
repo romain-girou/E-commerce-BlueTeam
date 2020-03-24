@@ -1,7 +1,20 @@
 import 'package:breath/routes/routes_names.dart';
 import 'package:flutter/material.dart';
 
-class MyDrawer extends StatelessWidget {
+class MyDrawer extends StatefulWidget {
+
+  @override
+  _MyDrawerState createState() => _MyDrawerState();
+}
+
+class _MyDrawerState extends State<MyDrawer> {
+
+  String route = "";
+
+  Future navigation (String route) {
+    return Navigator.pushNamed(context, route);
+  }
+
   @override
   Widget build(BuildContext context) {
     return Drawer(
@@ -13,7 +26,9 @@ class MyDrawer extends StatelessWidget {
               title: Center(child: Text('Collections')),
               onTap: () {
                 // Update the state of the app
-                // ...
+                // setState(() {
+                //   route = CollectionRoute;
+                // });
                 // Then close the drawer
                 Navigator.pop(context);
               },
@@ -21,15 +36,24 @@ class MyDrawer extends StatelessWidget {
             ListTile(
               title: Center(child: Text('About us')),
               onTap: () {
-                Navigator.pushNamed(context, SignInRoute);
+                // Update the state of the app
+                // setState(() {
+                //   route = AboutUsRoute;
+                // });
+                // Then close the drawer                
                 Navigator.pop(context);
               },
             ),
             ListTile(
               title: Center(child: Text('My account')),
               onTap: () {
-                Navigator.pushNamed(context, SignInRoute);
+                // Update the state of the app
+                setState(() {
+                  route = SignInRoute;
+                });
+                // Then close the drawer                
                 Navigator.pop(context);
+                navigation(route);              
               },
             )
           ],
