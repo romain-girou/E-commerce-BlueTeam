@@ -1,17 +1,18 @@
-define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/actions', 'packages/flutter/src/painting/_network_image_web'], function(dart_sdk, packages__flutter__material, packages__flutter__src__widgets__actions, packages__flutter__src__painting___network_image_web) {
+define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/material', 'packages/flutter/src/painting/_network_image_web'], function(dart_sdk, packages__flutter__src__widgets__actions, packages__flutter__material, packages__flutter__src__painting___network_image_web) {
   'use strict';
   const core = dart_sdk.core;
   const _interceptors = dart_sdk._interceptors;
+  const async = dart_sdk.async;
   const dart = dart_sdk.dart;
   const dartx = dart_sdk.dartx;
-  const drawer = packages__flutter__material.src__material__drawer;
-  const list_tile = packages__flutter__material.src__material__list_tile;
+  const framework = packages__flutter__src__widgets__actions.src__widgets__framework;
+  const navigator = packages__flutter__src__widgets__actions.src__widgets__navigator;
   const scroll_view = packages__flutter__src__widgets__actions.src__widgets__scroll_view;
   const basic = packages__flutter__src__widgets__actions.src__widgets__basic;
   const text = packages__flutter__src__widgets__actions.src__widgets__text;
   const widget_inspector = packages__flutter__src__widgets__actions.src__widgets__widget_inspector;
-  const navigator = packages__flutter__src__widgets__actions.src__widgets__navigator;
-  const framework = packages__flutter__src__widgets__actions.src__widgets__framework;
+  const drawer = packages__flutter__material.src__material__drawer;
+  const list_tile = packages__flutter__material.src__material__list_tile;
   const edge_insets = packages__flutter__src__painting___network_image_web.src__painting__edge_insets;
   const my_drawer = Object.create(dart.library);
   let VoidToNull = () => (VoidToNull = dart.constFn(dart.fnType(core.Null, [])))();
@@ -24,7 +25,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/a
         [_Location_parameterLocations]: null,
         [_Location_name]: "data",
         [_Location_column]: 41,
-        [_Location_line]: 13,
+        [_Location_line]: 26,
         [_Location_file]: null
       });
     },
@@ -37,7 +38,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/a
         [_Location_parameterLocations]: C1 || CT.C1,
         [_Location_name]: null,
         [_Location_column]: 36,
-        [_Location_line]: 13,
+        [_Location_line]: 26,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/NavigationBar/my_drawer.dart"
       });
     },
@@ -47,7 +48,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/a
         [_Location_parameterLocations]: null,
         [_Location_name]: "child",
         [_Location_column]: 29,
-        [_Location_line]: 13,
+        [_Location_line]: 26,
         [_Location_file]: null
       });
     },
@@ -60,7 +61,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/a
         [_Location_parameterLocations]: C4 || CT.C4,
         [_Location_name]: null,
         [_Location_column]: 22,
-        [_Location_line]: 13,
+        [_Location_line]: 26,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/NavigationBar/my_drawer.dart"
       });
     },
@@ -70,7 +71,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/a
         [_Location_parameterLocations]: null,
         [_Location_name]: "title",
         [_Location_column]: 15,
-        [_Location_line]: 13,
+        [_Location_line]: 26,
         [_Location_file]: null
       });
     },
@@ -80,7 +81,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/a
         [_Location_parameterLocations]: null,
         [_Location_name]: "onTap",
         [_Location_column]: 15,
-        [_Location_line]: 14,
+        [_Location_line]: 27,
         [_Location_file]: null
       });
     },
@@ -93,7 +94,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/a
         [_Location_parameterLocations]: C7 || CT.C7,
         [_Location_name]: null,
         [_Location_column]: 13,
-        [_Location_line]: 12,
+        [_Location_line]: 25,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/NavigationBar/my_drawer.dart"
       });
     },
@@ -103,7 +104,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/a
         [_Location_parameterLocations]: null,
         [_Location_name]: "data",
         [_Location_column]: 41,
-        [_Location_line]: 22,
+        [_Location_line]: 37,
         [_Location_file]: null
       });
     },
@@ -116,7 +117,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/a
         [_Location_parameterLocations]: C11 || CT.C11,
         [_Location_name]: null,
         [_Location_column]: 36,
-        [_Location_line]: 22,
+        [_Location_line]: 37,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/NavigationBar/my_drawer.dart"
       });
     },
@@ -126,7 +127,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/a
         [_Location_parameterLocations]: null,
         [_Location_name]: "child",
         [_Location_column]: 29,
-        [_Location_line]: 22,
+        [_Location_line]: 37,
         [_Location_file]: null
       });
     },
@@ -139,7 +140,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/a
         [_Location_parameterLocations]: C14 || CT.C14,
         [_Location_name]: null,
         [_Location_column]: 22,
-        [_Location_line]: 22,
+        [_Location_line]: 37,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/NavigationBar/my_drawer.dart"
       });
     },
@@ -149,7 +150,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/a
         [_Location_parameterLocations]: null,
         [_Location_name]: "title",
         [_Location_column]: 15,
-        [_Location_line]: 22,
+        [_Location_line]: 37,
         [_Location_file]: null
       });
     },
@@ -159,7 +160,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/a
         [_Location_parameterLocations]: null,
         [_Location_name]: "onTap",
         [_Location_column]: 15,
-        [_Location_line]: 23,
+        [_Location_line]: 38,
         [_Location_file]: null
       });
     },
@@ -172,7 +173,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/a
         [_Location_parameterLocations]: C17 || CT.C17,
         [_Location_name]: null,
         [_Location_column]: 13,
-        [_Location_line]: 21,
+        [_Location_line]: 36,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/NavigationBar/my_drawer.dart"
       });
     },
@@ -182,7 +183,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/a
         [_Location_parameterLocations]: null,
         [_Location_name]: "data",
         [_Location_column]: 41,
-        [_Location_line]: 29,
+        [_Location_line]: 48,
         [_Location_file]: null
       });
     },
@@ -195,7 +196,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/a
         [_Location_parameterLocations]: C21 || CT.C21,
         [_Location_name]: null,
         [_Location_column]: 36,
-        [_Location_line]: 29,
+        [_Location_line]: 48,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/NavigationBar/my_drawer.dart"
       });
     },
@@ -205,7 +206,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/a
         [_Location_parameterLocations]: null,
         [_Location_name]: "child",
         [_Location_column]: 29,
-        [_Location_line]: 29,
+        [_Location_line]: 48,
         [_Location_file]: null
       });
     },
@@ -218,7 +219,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/a
         [_Location_parameterLocations]: C24 || CT.C24,
         [_Location_name]: null,
         [_Location_column]: 22,
-        [_Location_line]: 29,
+        [_Location_line]: 48,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/NavigationBar/my_drawer.dart"
       });
     },
@@ -228,7 +229,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/a
         [_Location_parameterLocations]: null,
         [_Location_name]: "title",
         [_Location_column]: 15,
-        [_Location_line]: 29,
+        [_Location_line]: 48,
         [_Location_file]: null
       });
     },
@@ -238,7 +239,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/a
         [_Location_parameterLocations]: null,
         [_Location_name]: "onTap",
         [_Location_column]: 15,
-        [_Location_line]: 30,
+        [_Location_line]: 49,
         [_Location_file]: null
       });
     },
@@ -251,7 +252,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/a
         [_Location_parameterLocations]: C27 || CT.C27,
         [_Location_name]: null,
         [_Location_column]: 13,
-        [_Location_line]: 28,
+        [_Location_line]: 47,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/NavigationBar/my_drawer.dart"
       });
     },
@@ -261,7 +262,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/a
         [_Location_parameterLocations]: null,
         [_Location_name]: "padding",
         [_Location_column]: 11,
-        [_Location_line]: 10,
+        [_Location_line]: 23,
         [_Location_file]: null
       });
     },
@@ -271,7 +272,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/a
         [_Location_parameterLocations]: null,
         [_Location_name]: "children",
         [_Location_column]: 11,
-        [_Location_line]: 11,
+        [_Location_line]: 24,
         [_Location_file]: null
       });
     },
@@ -284,7 +285,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/a
         [_Location_parameterLocations]: C31 || CT.C31,
         [_Location_name]: null,
         [_Location_column]: 16,
-        [_Location_line]: 8,
+        [_Location_line]: 21,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/NavigationBar/my_drawer.dart"
       });
     },
@@ -294,7 +295,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/a
         [_Location_parameterLocations]: null,
         [_Location_name]: "child",
         [_Location_column]: 9,
-        [_Location_line]: 8,
+        [_Location_line]: 21,
         [_Location_file]: null
       });
     },
@@ -307,11 +308,27 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/a
         [_Location_parameterLocations]: C35 || CT.C35,
         [_Location_name]: null,
         [_Location_column]: 12,
-        [_Location_line]: 7,
+        [_Location_line]: 20,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/NavigationBar/my_drawer.dart"
       });
     }
   });
+  my_drawer.MyDrawer = class MyDrawer extends framework.StatefulWidget {
+    createState() {
+      return new my_drawer._MyDrawerState.new();
+    }
+  };
+  (my_drawer.MyDrawer.new = function(opts) {
+    let $36creationLocationd_0dea112b090073317d4 = opts && '$creationLocationd_0dea112b090073317d4' in opts ? opts.$creationLocationd_0dea112b090073317d4 : null;
+    my_drawer.MyDrawer.__proto__.new.call(this, {$creationLocationd_0dea112b090073317d4: $36creationLocationd_0dea112b090073317d4});
+    ;
+  }).prototype = my_drawer.MyDrawer.prototype;
+  dart.addTypeTests(my_drawer.MyDrawer);
+  dart.setMethodSignature(my_drawer.MyDrawer, () => ({
+    __proto__: dart.getMethods(my_drawer.MyDrawer.__proto__),
+    createState: dart.fnType(my_drawer._MyDrawerState, [])
+  }));
+  dart.setLibraryUri(my_drawer.MyDrawer, "package:breath/screens/NavigationBar/my_drawer.dart");
   const _Location_parameterLocations = dart.privateName(widget_inspector, "_Location.parameterLocations");
   const _Location_name = dart.privateName(widget_inspector, "_Location.name");
   const _Location_column = dart.privateName(widget_inspector, "_Location.column");
@@ -354,34 +371,44 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/widgets/a
   let C36;
   let C35;
   let C34;
-  my_drawer.MyDrawer = class MyDrawer extends framework.StatelessWidget {
+  my_drawer._MyDrawerState = class _MyDrawerState extends framework.State$(my_drawer.MyDrawer) {
+    navigation(route) {
+      return navigator.Navigator.pushNamed(core.Object, this.context, route);
+    }
     build(context) {
       return new drawer.Drawer.new({child: new scroll_view.ListView.new({padding: edge_insets.EdgeInsets.zero, children: JSArrayOfWidget().of([new list_tile.ListTile.new({title: new basic.Center.new({child: new text.Text.new("Collections", {$creationLocationd_0dea112b090073317d4: C0 || CT.C0}), $creationLocationd_0dea112b090073317d4: C3 || CT.C3}), onTap: dart.fn(() => {
                 navigator.Navigator.pop(core.Object, context);
               }, VoidToNull()), $creationLocationd_0dea112b090073317d4: C6 || CT.C6}), new list_tile.ListTile.new({title: new basic.Center.new({child: new text.Text.new("About us", {$creationLocationd_0dea112b090073317d4: C10 || CT.C10}), $creationLocationd_0dea112b090073317d4: C13 || CT.C13}), onTap: dart.fn(() => {
-                navigator.Navigator.pushNamed(core.Object, context, "/sign-in");
                 navigator.Navigator.pop(core.Object, context);
               }, VoidToNull()), $creationLocationd_0dea112b090073317d4: C16 || CT.C16}), new list_tile.ListTile.new({title: new basic.Center.new({child: new text.Text.new("My account", {$creationLocationd_0dea112b090073317d4: C20 || CT.C20}), $creationLocationd_0dea112b090073317d4: C23 || CT.C23}), onTap: dart.fn(() => {
-                navigator.Navigator.pushNamed(core.Object, context, "/sign-in");
+                this.setState(dart.fn(() => {
+                  this.route = "/sign-in";
+                }, VoidToNull()));
                 navigator.Navigator.pop(core.Object, context);
+                this.navigation(this.route);
               }, VoidToNull()), $creationLocationd_0dea112b090073317d4: C26 || CT.C26})]), $creationLocationd_0dea112b090073317d4: C30 || CT.C30}), $creationLocationd_0dea112b090073317d4: C34 || CT.C34});
     }
   };
-  (my_drawer.MyDrawer.new = function(opts) {
-    let $36creationLocationd_0dea112b090073317d4 = opts && '$creationLocationd_0dea112b090073317d4' in opts ? opts.$creationLocationd_0dea112b090073317d4 : null;
-    my_drawer.MyDrawer.__proto__.new.call(this, {$creationLocationd_0dea112b090073317d4: $36creationLocationd_0dea112b090073317d4});
+  (my_drawer._MyDrawerState.new = function() {
+    this.route = "";
+    my_drawer._MyDrawerState.__proto__.new.call(this);
     ;
-  }).prototype = my_drawer.MyDrawer.prototype;
-  dart.addTypeTests(my_drawer.MyDrawer);
-  dart.setMethodSignature(my_drawer.MyDrawer, () => ({
-    __proto__: dart.getMethods(my_drawer.MyDrawer.__proto__),
+  }).prototype = my_drawer._MyDrawerState.prototype;
+  dart.addTypeTests(my_drawer._MyDrawerState);
+  dart.setMethodSignature(my_drawer._MyDrawerState, () => ({
+    __proto__: dart.getMethods(my_drawer._MyDrawerState.__proto__),
+    navigation: dart.fnType(async.Future, [core.String]),
     build: dart.fnType(framework.Widget, [framework.BuildContext])
   }));
-  dart.setLibraryUri(my_drawer.MyDrawer, "package:breath/screens/NavigationBar/my_drawer.dart");
+  dart.setLibraryUri(my_drawer._MyDrawerState, "package:breath/screens/NavigationBar/my_drawer.dart");
+  dart.setFieldSignature(my_drawer._MyDrawerState, () => ({
+    __proto__: dart.getFields(my_drawer._MyDrawerState.__proto__),
+    route: dart.fieldType(core.String)
+  }));
   dart.trackLibraries("packages/breath/screens/NavigationBar/my_drawer", {
     "package:breath/screens/NavigationBar/my_drawer.dart": my_drawer
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["my_drawer.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;UAK4B;AACxB,YAAO,+BACI,uCAEe,uCACF,sBAChB,mCACS,6BAAc,kBAAK,qIACnB;AAIiB,gBAAZ,qCAAI,OAAO;uFAGzB,mCACS,6BAAc,kBAAK,sIACnB;AACoC,gBAA/B,2CAAU,OAAO;AACL,gBAAZ,qCAAI,OAAO;yFAGzB,mCACS,6BAAc,kBAAK,wIACnB;AACoC,gBAA/B,2CAAU,OAAO;AACL,gBAAZ,qCAAI,OAAO;;IAMnC;;;;;;EACF","file":"my_drawer.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["my_drawer.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAMkC;IAAgB;;;;;;EAClD;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;eAM4B;AACxB,YAAiB,4CAAU,cAAS,KAAK;IAC3C;UAG0B;AACxB,YAAO,+BACI,uCAEe,uCACF,sBAChB,mCACS,6BAAc,kBAAK,qIACnB;AAMiB,gBAAZ,qCAAI,OAAO;uFAGzB,mCACS,6BAAc,kBAAK,sIACnB;AAMiB,gBAAZ,qCAAI,OAAO;yFAGzB,mCACS,6BAAc,kBAAK,wIACnB;AAIH,gBAFF,cAAS;AACY,kBAAnB;;AAGoB,gBAAZ,qCAAI,OAAO;AACJ,gBAAjB,gBAAW;;IAMzB;;;IAlDO,aAAQ;;;EAmDjB","file":"my_drawer.ddc.js"}');
   // Exports:
   return {
     screens__NavigationBar__my_drawer: my_drawer

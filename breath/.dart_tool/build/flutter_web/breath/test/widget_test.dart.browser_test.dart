@@ -18,7 +18,7 @@ Future<void> main() async {
   // this stuff in.
   ui.debugEmulateFlutterTesterEnvironment = true;
   await ui.webOnlyInitializePlatform();
-  webGoldenComparator = DefaultWebGoldenComparator(Uri.parse('file:///C:/Users/romai/OneDrive/Documents/GitHub/E-commerce-BlueTeam/breath/test/widget_test.dart'));
+  webGoldenComparator = DefaultWebGoldenComparator(Uri.parse('file:///C:/Users/cleme/Documents/GitHub/E-commerce-BlueTeam/breath/test/widget_test.dart'));
   // TODO(flutterweb): remove need for dynamic cast.
   (ui.window as dynamic).debugOverrideDevicePixelRatio(3.0);
   (ui.window as dynamic).webOnlyDebugPhysicalSizeOverride = const ui.Size(2400, 1800);

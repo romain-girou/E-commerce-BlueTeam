@@ -7,24 +7,29 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/breath/routes/router'
   const theme_data = packages__flutter__material.src__material__theme_data;
   const colors = packages__flutter__material.src__material__colors;
   const router = packages__breath__routes__router.routes__router;
-  const navigator = packages__flutter__src__widgets__actions.src__widgets__navigator;
   const widget_inspector = packages__flutter__src__widgets__actions.src__widgets__widget_inspector;
   const framework = packages__flutter__src__widgets__actions.src__widgets__framework;
   const binding = packages__flutter__src__widgets__actions.src__widgets__binding;
   const main = Object.create(dart.library);
-  let RouteSettingsToRoute = () => (RouteSettingsToRoute = dart.constFn(dart.fnType(navigator.Route, [navigator.RouteSettings])))();
   const CT = Object.create(null);
   dart.defineLazy(CT, {
-    get C0() {
-      return C0 = dart.fn(router.generateRoute, RouteSettingsToRoute());
+    get C2() {
+      return C2 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "debugShowCheckedModeBanner",
+        [_Location_column]: 7,
+        [_Location_line]: 16,
+        [_Location_file]: null
+      });
     },
     get C3() {
       return C3 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         [_Location_parameterLocations]: null,
-        [_Location_name]: "debugShowCheckedModeBanner",
+        [_Location_name]: "title",
         [_Location_column]: 7,
-        [_Location_line]: 12,
+        [_Location_line]: 17,
         [_Location_file]: null
       });
     },
@@ -32,9 +37,9 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/breath/routes/router'
       return C4 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         [_Location_parameterLocations]: null,
-        [_Location_name]: "title",
+        [_Location_name]: "theme",
         [_Location_column]: 7,
-        [_Location_line]: 13,
+        [_Location_line]: 18,
         [_Location_file]: null
       });
     },
@@ -42,9 +47,9 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/breath/routes/router'
       return C5 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         [_Location_parameterLocations]: null,
-        [_Location_name]: "theme",
+        [_Location_name]: "initialRoute",
         [_Location_column]: 7,
-        [_Location_line]: 14,
+        [_Location_line]: 22,
         [_Location_file]: null
       });
     },
@@ -52,65 +57,54 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/breath/routes/router'
       return C6 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         [_Location_parameterLocations]: null,
-        [_Location_name]: "initialRoute",
+        [_Location_name]: "onGenerateRoute",
         [_Location_column]: 7,
-        [_Location_line]: 18,
+        [_Location_line]: 23,
         [_Location_file]: null
       });
+    },
+    get C1() {
+      return C1 = dart.constList([C2 || CT.C2, C3 || CT.C3, C4 || CT.C4, C5 || CT.C5, C6 || CT.C6], widget_inspector._Location);
+    },
+    get C0() {
+      return C0 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C1 || CT.C1,
+        [_Location_name]: null,
+        [_Location_column]: 12,
+        [_Location_line]: 15,
+        [_Location_file]: "org-dartlang-app:///packages/breath/main.dart"
+      });
+    },
+    get C8() {
+      return C8 = dart.constList([], widget_inspector._Location);
     },
     get C7() {
       return C7 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: null,
-        [_Location_name]: "onGenerateRoute",
-        [_Location_column]: 7,
-        [_Location_line]: 19,
-        [_Location_file]: null
-      });
-    },
-    get C2() {
-      return C2 = dart.constList([C3 || CT.C3, C4 || CT.C4, C5 || CT.C5, C6 || CT.C6, C7 || CT.C7], widget_inspector._Location);
-    },
-    get C1() {
-      return C1 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: C2 || CT.C2,
+        [_Location_parameterLocations]: C8 || CT.C8,
         [_Location_name]: null,
-        [_Location_column]: 12,
-        [_Location_line]: 11,
-        [_Location_file]: "org-dartlang-app:///packages/breath/main.dart"
-      });
-    },
-    get C9() {
-      return C9 = dart.constList([], widget_inspector._Location);
-    },
-    get C8() {
-      return C8 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: C9 || CT.C9,
-        [_Location_name]: null,
-        [_Location_column]: 23,
-        [_Location_line]: 5,
+        [_Location_column]: 10,
+        [_Location_line]: 8,
         [_Location_file]: "org-dartlang-app:///packages/breath/main.dart"
       });
     }
   });
-  let C0;
   const _Location_parameterLocations = dart.privateName(widget_inspector, "_Location.parameterLocations");
   const _Location_name = dart.privateName(widget_inspector, "_Location.name");
   const _Location_column = dart.privateName(widget_inspector, "_Location.column");
   const _Location_line = dart.privateName(widget_inspector, "_Location.line");
   const _Location_file = dart.privateName(widget_inspector, "_Location.file");
+  let C2;
   let C3;
   let C4;
   let C5;
   let C6;
-  let C7;
-  let C2;
   let C1;
+  let C0;
   main.MyApp = class MyApp extends framework.StatelessWidget {
     build(context) {
-      return new app.MaterialApp.new({debugShowCheckedModeBanner: false, title: "Breath", theme: theme_data.ThemeData.new({primarySwatch: colors.Colors.blue}), initialRoute: "/", onGenerateRoute: C0 || CT.C0, $creationLocationd_0dea112b090073317d4: C1 || CT.C1});
+      return new app.MaterialApp.new({debugShowCheckedModeBanner: false, title: "Breath", theme: theme_data.ThemeData.new({primarySwatch: colors.Colors.blue}), initialRoute: "/home", onGenerateRoute: dart.bind(router.FluroRouter.router, 'generator'), $creationLocationd_0dea112b090073317d4: C0 || CT.C0});
     }
   };
   (main.MyApp.new = function(opts) {
@@ -124,15 +118,16 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/breath/routes/router'
     build: dart.fnType(framework.Widget, [framework.BuildContext])
   }));
   dart.setLibraryUri(main.MyApp, "package:breath/main.dart");
-  let C9;
   let C8;
+  let C7;
   main.main = function main$() {
-    return binding.runApp(new main.MyApp.new({$creationLocationd_0dea112b090073317d4: C8 || CT.C8}));
+    router.FluroRouter.setupRouter();
+    binding.runApp(new main.MyApp.new({$creationLocationd_0dea112b090073317d4: C7 || CT.C7}));
   };
   dart.trackLibraries("packages/breath/main", {
     "package:breath/main.dart": main
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["main.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;UAS4B;AACxB,YAAO,sDACuB,cACrB,iBACA,yCACiB;IAM5B;;;;;;EACF;;;;;;;;;;AAjBe,0BAAO;EAAQ","file":"main.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["main.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;UAa4B;AACxB,YAAO,sDACuB,cACrB,iBACA,yCACiB,8DAIY,UAAP;IAEjC;;;;;;EACF;;;;;;;;;;AAnB2B,IAAb;AACG,IAAf,eAAO;EACT","file":"main.ddc.js"}');
   // Exports:
   return {
     main: main

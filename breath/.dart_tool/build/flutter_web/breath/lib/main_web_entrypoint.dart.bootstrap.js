@@ -73,6 +73,7 @@ let modulePaths = {
  "packages/collection/src/iterable_zip": "packages/collection/src/iterable_zip.ddc",
  "packages/collection/src/priority_queue": "packages/collection/src/priority_queue.ddc",
  "packages/collection/src/utils": "packages/collection/src/utils.ddc",
+ "packages/fluro/fluro": "packages/fluro/fluro.ddc",
  "packages/flutter/animation": "packages/flutter/animation.ddc",
  "packages/flutter/cupertino": "packages/flutter/cupertino.ddc",
  "packages/flutter/foundation": "packages/flutter/foundation.ddc",

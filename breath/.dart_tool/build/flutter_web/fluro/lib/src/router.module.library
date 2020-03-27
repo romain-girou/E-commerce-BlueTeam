@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["fluro|lib/fluro.dart","fluro|lib/src/common.dart","flutter|lib/foundation.dart","flutter|lib/cupertino.dart","flutter|lib/material.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async"],"hasMain":false}

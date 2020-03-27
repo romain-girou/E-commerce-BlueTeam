@@ -7,7 +7,7 @@ define(['dart_sdk'], function(dart_sdk) {
   const CT = Object.create(null);
   dart.defineLazy(routes_names, {
     /*routes_names.HomeRoute*/get HomeRoute() {
-      return "/";
+      return "/home";
     },
     /*routes_names.SignInRoute*/get SignInRoute() {
       return "/sign-in";
