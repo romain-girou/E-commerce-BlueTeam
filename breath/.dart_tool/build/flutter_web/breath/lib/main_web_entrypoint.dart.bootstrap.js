@@ -54,6 +54,7 @@ var baseUrl = (function () {
 let modulePaths = {
  "dart_sdk": "packages/build_web_compilers/src/dev_compiler/dart_sdk",
  "packages/auto_size_text/auto_size_text": "packages/auto_size_text/auto_size_text.ddc",
+ "packages/breath/classes/bullet": "packages/breath/classes/bullet.ddc",
  "packages/breath/main": "packages/breath/main.ddc",
  "packages/breath/main_web_entrypoint": "packages/breath/main_web_entrypoint.ddc",
  "packages/breath/routes/router": "packages/breath/routes/router.ddc",
@@ -62,6 +63,7 @@ let modulePaths = {
  "packages/breath/screens/LandingPage/landing_page_mobile": "packages/breath/screens/LandingPage/landing_page_mobile.ddc",
  "packages/breath/screens/NavigationBar/my_app_bar": "packages/breath/screens/NavigationBar/my_app_bar.ddc",
  "packages/breath/screens/NavigationBar/my_drawer": "packages/breath/screens/NavigationBar/my_drawer.ddc",
+ "packages/breath/screens/ProductPage/product_page": "packages/breath/screens/ProductPage/product_page.ddc",
  "packages/breath/screens/homeView/home_view": "packages/breath/screens/homeView/home_view.ddc",
  "packages/breath/screens/sign_in/sign_in": "packages/breath/screens/sign_in/sign_in.ddc",
  "packages/breath/screens/undefined_route.dart/undefined_route": "packages/breath/screens/undefined_route.dart/undefined_route.ddc",
