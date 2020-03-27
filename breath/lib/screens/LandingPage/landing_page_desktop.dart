@@ -2,16 +2,14 @@ import 'package:breath/routes/routes_names.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:auto_size_text/auto_size_text.dart';
+import 'package:breath/classes/bullet.dart';
 
 class LandingPageDesktop extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double myPageHeight = MediaQuery.of(context).size.height - 100;
     double myPageWidth = MediaQuery.of(context).size.width;
-    return Scrollbar(
-      child: ListView(
-        children: <Widget>[
-          Container( // Main screen
+    return Container( // Main screen
             height: myPageHeight,
             decoration: BoxDecoration( // Background image
               image: DecorationImage(
@@ -160,52 +158,6 @@ class LandingPageDesktop extends StatelessWidget {
                   ],
                 ),
               ],
-            ),),
-          Container(
-            color: Colors.red,
-            height: myPageHeight,
-            width: myPageWidth,
-          ),
-          Container(
-            color: Colors.green,
-            height: myPageHeight,
-            width: myPageWidth,
-          ),
-          Container(
-            color: Colors.blue,
-            height: myPageHeight,
-            width: myPageWidth,
-          ),
-        ],
-      ),
-    );
+            ),);
   }
-}
-
-class Bullet extends Text {
-  const Bullet(
-      String data, {
-        Key key,
-        TextStyle style,
-        TextAlign textAlign,
-        TextDirection textDirection,
-        Locale locale,
-        bool softWrap,
-        TextOverflow overflow,
-        double textScaleFactor,
-        int maxLines,
-        String semanticsLabel,
-      }) : super(
-    '• $data',
-    key: key,
-    style: style,
-    textAlign: textAlign,
-    textDirection: textDirection,
-    locale: locale,
-    softWrap: softWrap,
-    overflow: overflow,
-    textScaleFactor: textScaleFactor,
-    maxLines: maxLines,
-    semanticsLabel: semanticsLabel,
-  );
 }

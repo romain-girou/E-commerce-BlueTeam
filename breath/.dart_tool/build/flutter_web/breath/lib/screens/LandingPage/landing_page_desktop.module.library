@@ -1,1 +1,1 @@
-{"isEntrypoint":true,"deps":["breath|lib/routes/routes_names.dart","flutter|lib/cupertino.dart","flutter|lib/material.dart","auto_size_text|lib/auto_size_text.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}
+{"isEntrypoint":true,"deps":["breath|lib/routes/routes_names.dart","flutter|lib/cupertino.dart","flutter|lib/material.dart","auto_size_text|lib/auto_size_text.dart","breath|lib/classes/bullet.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}
