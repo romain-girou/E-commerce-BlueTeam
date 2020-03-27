@@ -1,4 +1,3 @@
-import 'package:breath/screens/LandingPage/LandingPage.dart';
 import 'package:breath/screens/LandingPage/landing_page_desktop.dart';
 import 'package:breath/screens/LandingPage/landing_page_mobile.dart';
 import 'package:breath/screens/NavigationBar/my_drawer.dart';

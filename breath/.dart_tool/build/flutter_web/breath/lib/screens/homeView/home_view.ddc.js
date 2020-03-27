@@ -20,7 +20,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/breath/screens/Naviga
         [_Location_parameterLocations]: null,
         [_Location_name]: "height",
         [_Location_column]: 24,
-        [_Location_line]: 14,
+        [_Location_line]: 13,
         [_Location_file]: null
       });
     },
@@ -33,7 +33,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/breath/screens/Naviga
         [_Location_parameterLocations]: C1 || CT.C1,
         [_Location_name]: null,
         [_Location_column]: 15,
-        [_Location_line]: 14,
+        [_Location_line]: 13,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/homeView/home_view.dart"
       });
     },
@@ -46,7 +46,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/breath/screens/Naviga
         [_Location_parameterLocations]: C4 || CT.C4,
         [_Location_name]: null,
         [_Location_column]: 18,
-        [_Location_line]: 15,
+        [_Location_line]: 14,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/homeView/home_view.dart"
       });
     },
@@ -56,7 +56,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/breath/screens/Naviga
         [_Location_parameterLocations]: C4 || CT.C4,
         [_Location_name]: null,
         [_Location_column]: 18,
-        [_Location_line]: 17,
+        [_Location_line]: 16,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/homeView/home_view.dart"
       });
     },
@@ -66,7 +66,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/breath/screens/Naviga
         [_Location_parameterLocations]: C4 || CT.C4,
         [_Location_name]: null,
         [_Location_column]: 17,
-        [_Location_line]: 18,
+        [_Location_line]: 17,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/homeView/home_view.dart"
       });
     },
@@ -76,7 +76,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/breath/screens/Naviga
         [_Location_parameterLocations]: null,
         [_Location_name]: "desktop",
         [_Location_column]: 9,
-        [_Location_line]: 17,
+        [_Location_line]: 16,
         [_Location_file]: null
       });
     },
@@ -86,7 +86,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/breath/screens/Naviga
         [_Location_parameterLocations]: null,
         [_Location_name]: "mobile",
         [_Location_column]: 9,
-        [_Location_line]: 18,
+        [_Location_line]: 17,
         [_Location_file]: null
       });
     },
@@ -99,7 +99,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/breath/screens/Naviga
         [_Location_parameterLocations]: C8 || CT.C8,
         [_Location_name]: null,
         [_Location_column]: 13,
-        [_Location_line]: 16,
+        [_Location_line]: 15,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/homeView/home_view.dart"
       });
     },
@@ -109,7 +109,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/breath/screens/Naviga
         [_Location_parameterLocations]: null,
         [_Location_name]: "appBar",
         [_Location_column]: 7,
-        [_Location_line]: 14,
+        [_Location_line]: 13,
         [_Location_file]: null
       });
     },
@@ -119,7 +119,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/breath/screens/Naviga
         [_Location_parameterLocations]: null,
         [_Location_name]: "endDrawer",
         [_Location_column]: 7,
-        [_Location_line]: 15,
+        [_Location_line]: 14,
         [_Location_file]: null
       });
     },
@@ -129,7 +129,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/breath/screens/Naviga
         [_Location_parameterLocations]: null,
         [_Location_name]: "body",
         [_Location_column]: 7,
-        [_Location_line]: 16,
+        [_Location_line]: 15,
         [_Location_file]: null
       });
     },
@@ -142,7 +142,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/breath/screens/Naviga
         [_Location_parameterLocations]: C12 || CT.C12,
         [_Location_name]: null,
         [_Location_column]: 12,
-        [_Location_line]: 13,
+        [_Location_line]: 12,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/homeView/home_view.dart"
       });
     }
@@ -187,7 +187,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/breath/screens/Naviga
   dart.trackLibraries("packages/breath/screens/homeView/home_view", {
     "package:breath/screens/homeView/home_view.dart": home_view
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["home_view.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;UAW4B;AACxB,YAAO,oCACG,qCAAiB,yEACd,yFACL,sDACK,gHACD;IAGd;;;;;;EACF","file":"home_view.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["home_view.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;UAU4B;AACxB,YAAO,oCACG,qCAAiB,yEACd,yFACL,sDACK,gHACD;IAGd;;;;;;EACF","file":"home_view.ddc.js"}');
   // Exports:
   return {
     screens__homeView__home_view: home_view

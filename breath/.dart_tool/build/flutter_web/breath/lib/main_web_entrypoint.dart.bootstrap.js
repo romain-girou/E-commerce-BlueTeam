@@ -58,7 +58,6 @@ let modulePaths = {
  "packages/breath/main_web_entrypoint": "packages/breath/main_web_entrypoint.ddc",
  "packages/breath/routes/router": "packages/breath/routes/router.ddc",
  "packages/breath/routes/routes_names": "packages/breath/routes/routes_names.ddc",
- "packages/breath/screens/LandingPage/LandingPage": "packages/breath/screens/LandingPage/LandingPage.ddc",
  "packages/breath/screens/LandingPage/landing_page_desktop": "packages/breath/screens/LandingPage/landing_page_desktop.ddc",
  "packages/breath/screens/LandingPage/landing_page_mobile": "packages/breath/screens/LandingPage/landing_page_mobile.ddc",
  "packages/breath/screens/NavigationBar/my_app_bar": "packages/breath/screens/NavigationBar/my_app_bar.ddc",
