@@ -3,7 +3,6 @@ import 'package:breath/screens/homeView/home_view.dart';
 import 'package:breath/screens/sign_in/sign_in.dart';
 import 'package:breath/screens/undefined_route.dart/undefined_route.dart';
 import 'package:flutter/material.dart';
-
 import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
 

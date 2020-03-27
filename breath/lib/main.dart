@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
       title: 'Breath',
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        cursorColor: Colors.black12,
       ),
       // navigatorKey: locator<NavigationService>().navigatorKey,
       initialRoute: HomeRoute,
