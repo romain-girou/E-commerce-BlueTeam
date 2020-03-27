@@ -1,7 +1,12 @@
-import 'package:breath/screens/homeView/home_view.dart';
+import 'package:breath/routes/router.dart';
+import 'package:breath/routes/routes_names.dart';
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
+
+void main() {
+  FluroRouter.setupRouter();
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
@@ -13,13 +18,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      initialRoute: '/',
-      routes: {
-        '/': (context) => HomeView(),
-        // '/sign-in': (context) => SignIn(),
-      },
+      // navigatorKey: locator<NavigationService>().navigatorKey,
+      initialRoute: HomeRoute,
+      onGenerateRoute: FluroRouter.router.generator,
     );
   }
 }
-
-

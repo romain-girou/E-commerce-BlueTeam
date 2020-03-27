@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["breath|lib/routes/router.dart","breath|lib/routes/routes_names.dart","flutter|lib/material.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":true}

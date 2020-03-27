@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["fluro|lib/src/common.dart","fluro|lib/src/router.dart","fluro|lib/src/tree.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}
