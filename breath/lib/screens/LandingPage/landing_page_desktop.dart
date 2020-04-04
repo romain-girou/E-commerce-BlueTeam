@@ -1,8 +1,8 @@
-import 'package:breath/routes/routes_names.dart';
+import 'package:breath_seinajoki/classes/bullet.dart';
+import 'package:breath_seinajoki/routes/routes_names.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:auto_size_text/auto_size_text.dart';
-import 'package:breath/classes/bullet.dart';
 
 class LandingPageDesktop extends StatelessWidget {
   @override

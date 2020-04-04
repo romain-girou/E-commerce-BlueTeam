@@ -2,6 +2,7 @@ import 'package:breath_seinajoki/authenticate/sign_in.dart';
 import 'package:breath_seinajoki/screens/LandingPage/landing_page_desktop.dart';
 import 'package:breath_seinajoki/screens/LandingPage/landing_page_mobile.dart';
 import 'package:breath_seinajoki/screens/NavigationBar/my_app_bar.dart';
+import 'package:breath_seinajoki/screens/ProductPage/product_page_desktop.dart';
 import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 import 'dart:html';
@@ -29,7 +30,6 @@ class HomeView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: MyAppBar(height: 100.0),
-      endDrawer: MyDrawer(),
       body: ScreenTypeLayout(
         desktop: Scrollbar(
           child: ListView(
