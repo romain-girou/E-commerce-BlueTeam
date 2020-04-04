@@ -3,7 +3,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 
-class LandingPageDesktop extends StatelessWidget {
+
+class LandingPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double myPageHeight = MediaQuery.of(context).size.height - 100;
@@ -31,11 +32,9 @@ class LandingPageDesktop extends StatelessWidget {
                     ),
                   ),
                   TextSpan(
-                    text: ',',
+                    text: ':',
                     style: TextStyle(
                       fontFamily: 'Bell MT',
-                      fontWeight: FontWeight.normal,
-                      // fontSize: 50.0
                     ),
                   ),
                   TextSpan(
@@ -70,18 +69,13 @@ class LandingPageDesktop extends StatelessWidget {
                 //color: Colors.green,
                 width: 0.6180339887498948*myPageWidth,
                 height: 450.0,
-                padding: EdgeInsets.symmetric(horizontal: 10.0),
                 //padding: EdgeInsets.all(5.0),
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly, // Equal space between the children
                   children: <Widget>[
                     Container( // Slogan
-                      child: AutoSizeText(
-                        'Explore the air of the world, ' ,
-                        maxFontSize: 55,
-                        //minFontSize: 55,
-                        maxLines: 2,
-                        textAlign: TextAlign.center,
+                      child: Text(
+                        'Explore the air of the world',
                         style: TextStyle( // Bold text
                           fontWeight: FontWeight.bold,
                           fontSize: 55.0,

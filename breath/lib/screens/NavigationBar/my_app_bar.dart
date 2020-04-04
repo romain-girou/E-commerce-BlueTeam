@@ -1,4 +1,8 @@
+import 'package:breath_seinajoki/models/user.dart';
+import 'package:breath_seinajoki/routes/routes_names.dart';
+import 'package:breath_seinajoki/services/auth.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 class MyAppBar extends StatelessWidget implements PreferredSizeWidget{
 final double height;
@@ -8,8 +12,13 @@ final double height;
     @required this.height,
   }) : super(key: key);
 
+
   @override
   Widget build(BuildContext context) {
+
+  final user = Provider.of<User>(context);
+  final AuthService _auth = AuthService();
+
     return Column(
       children: [
         Container(
@@ -22,7 +31,7 @@ final double height;
                 children: [
                   Row(
                     children: <Widget>[
-                      Image.asset('assets/images/Breath_logo.png', height: 60.0,),
+                      Image.asset('assets/images/Breath_logo.png', height: 50.0,),
                       Text.rich(
                         TextSpan(
                           children: [
@@ -41,16 +50,31 @@ final double height;
                           ],
                         ),
                         //maxLines: 1, // We ask all the title will be on one line
-                        style: TextStyle(fontSize: 49, color: Colors.black,),
+                        style: TextStyle(fontSize: 40, color: Colors.black,),
                         textAlign: TextAlign.center,
                       ),
-                  ],),
-                
-                IconButton(
-                  icon: Icon(Icons.menu),
-                  onPressed: () {
-                    Scaffold.of(context).openEndDrawer();
-                  },
+                    ],
+                  ),
+                Row(
+                  children: <Widget>[
+                    IconButton(
+                      icon: Icon(Icons.add_shopping_cart),
+                      onPressed: () {
+                        //Scaffold.of(context).openEndDrawer();
+                      },
+                    ),
+                    SizedBox(width: 20.0),
+                    IconButton(
+                      icon: user == null ? Icon(Icons.account_circle) : Icon(Icons.exit_to_app),
+                      onPressed: () {
+                        if (user == null) {
+                          return Navigator.pushNamed(context, SignInRoute);
+                        } else {
+                          return _auth.signOut();
+                        }
+                      },
+                    ),
+                  ],
                 ),
               ]),
             ),

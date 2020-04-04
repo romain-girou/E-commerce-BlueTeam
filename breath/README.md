@@ -1,4 +1,4 @@
-# breath
+# breath_seinajoki
 
 A new Flutter project.
 

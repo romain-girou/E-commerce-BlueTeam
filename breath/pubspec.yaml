@@ -1,4 +1,4 @@
-name: breath
+name: breath_seinajoki
 description: A new Flutter project.
 
 # The following defines the version and build number for your application.
@@ -14,7 +14,7 @@ description: A new Flutter project.
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.2.0 <3.0.0"
+  sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
   flutter:
@@ -22,15 +22,19 @@ dependencies:
   auto_size_text: ^2.1.0
   responsive_builder: ^0.1.5
   fluro: ^1.6.1
+  cloud_firestore: ^0.13.4+2
+  firebase_auth: ^0.15.2
+  provider: ^4.0.2
+  flutter_spinkit: ^4.1.1+1
+  firebase: ^7.2.1
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^0.1.2
+  cupertino_icons: ^0.1.3
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -73,6 +77,6 @@ flutter:
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
   fonts:
-    - family: Clarissa
-      fonts:
-        - asset: assets/fonts/Clarissa.ttf
+  - family: Clarissa
+    fonts:
+      - asset: assets/fonts/Clarissa.ttf

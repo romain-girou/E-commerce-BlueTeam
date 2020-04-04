@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/breath.iml" filepath="$PROJECT_DIR$/.idea/breath.iml" />
+      <module fileurl="file://$PROJECT_DIR$/breath_seinajoki.iml" filepath="$PROJECT_DIR$/breath_seinajoki.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/breath_seinajoki_android.iml" filepath="$PROJECT_DIR$/android/breath_seinajoki_android.iml" />
     </modules>
   </component>
 </project>
