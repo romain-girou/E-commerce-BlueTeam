@@ -7,21 +7,46 @@
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="breath">
-  <link rel="apple-touch-icon" href="/icons/Icon-192.png">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="breath_seinajoki">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
-  <title>breath</title>
-  <link rel="manifest" href="/manifest.json">
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+
+  <title>breath_seinajoki</title>
+  <link rel="manifest" href="manifest.json">
 </head>
 <body>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+      https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-firestore.js"></script>
+  
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyD-W5vbJsYQEAnXiD70HPYg3auKzsPXiK4",
+      authDomain: "breath-c5fa7.firebaseapp.com",
+      databaseURL: "https://breath-c5fa7.firebaseio.com",
+      projectId: "breath-c5fa7",
+      storageBucket: "breath-c5fa7.appspot.com",
+      messagingSenderId: "822662244036",
+      appId: "1:822662244036:web:b6c1bb6917d0e07f1dcb91"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function () {
-        navigator.serviceWorker.register('/flutter_service_worker.js');
+        navigator.serviceWorker.register('flutter_service_worker.js');
       });
     }
   </script>
