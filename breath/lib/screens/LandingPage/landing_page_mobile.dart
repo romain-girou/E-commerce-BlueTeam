@@ -2,6 +2,7 @@ import 'package:breath_seinajoki/routes/routes_names.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:auto_size_text/auto_size_text.dart';
+import 'package:breath/classes/bullet.dart';
 
 class LandingPageMobile extends StatelessWidget {
   @override
@@ -9,7 +10,7 @@ class LandingPageMobile extends StatelessWidget {
     double myPageHeight = MediaQuery.of(context).size.height - 100;
     double myPageWidth = MediaQuery.of(context).size.width;
     return Container( // Main screen
-      height: myPageHeight,
+      height: 650,
       width: myPageWidth,
       decoration: BoxDecoration( // Background image
         image: DecorationImage(
@@ -164,32 +165,4 @@ class LandingPageMobile extends StatelessWidget {
       ),
     );
   }
-}
-
-class Bullet extends Text {
-  const Bullet(
-      String data, {
-        Key key,
-        TextStyle style,
-        TextAlign textAlign,
-        TextDirection textDirection,
-        Locale locale,
-        bool softWrap,
-        TextOverflow overflow,
-        double textScaleFactor,
-        int maxLines,
-        String semanticsLabel,
-      }) : super(
-    '• $data',
-    key: key,
-    style: style,
-    textAlign: textAlign,
-    textDirection: textDirection,
-    locale: locale,
-    softWrap: softWrap,
-    overflow: overflow,
-    textScaleFactor: textScaleFactor,
-    maxLines: maxLines,
-    semanticsLabel: semanticsLabel,
-  );
 }
