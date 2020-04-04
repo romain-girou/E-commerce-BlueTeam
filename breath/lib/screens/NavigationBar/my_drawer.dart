@@ -1,4 +1,4 @@
-import 'package:breath/routes/routes_names.dart';
+import 'package:breath_seinajoki/routes/routes_names.dart';
 import 'package:flutter/material.dart';
 
 class MyDrawer extends StatefulWidget {
@@ -10,9 +10,16 @@ class MyDrawer extends StatefulWidget {
 class _MyDrawerState extends State<MyDrawer> {
 
   String route = "";
-
+  String currentRoute = "";
   Future navigation (String route) {
+    // print(route);
+    print(currentRoute);
+    if (route != currentRoute){
+    currentRoute = route;
     return Navigator.pushNamed(context, route);
+    } else {
+      return null;
+    }
   }
 
   @override
@@ -47,13 +54,16 @@ class _MyDrawerState extends State<MyDrawer> {
             ListTile(
               title: Center(child: Text('My account')),
               onTap: () {
+                print(route);
+                if (route != SignInRoute){
                 // Update the state of the app
                 setState(() {
                   route = SignInRoute;
                 });
-                // Then close the drawer                
+                // Then close the drawer  
                 Navigator.pop(context);
-                navigation(route);              
+                navigation(route);
+                }
               },
             )
           ],
