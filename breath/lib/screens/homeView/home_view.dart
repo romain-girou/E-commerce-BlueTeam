@@ -8,33 +8,31 @@ import 'dart:html';
 
 class HomeView extends StatelessWidget {
 
-  Widget whichScreenToReturn () {
-     String url = (window.location.href).substring(25);
-     print(url);
-    switch (url) {
-        case "home":
-          return ScreenTypeLayout(
-            desktop: LandingPageDesktop(),
-            mobile: LandingPageMobile(),
-          );
-          break;
-        case "sign-in":
-          return SignIn();
-          break;
-        default:
-      }
-  }
+  // Widget whichScreenToReturn () {
+  //    String url = (window.location.href).substring(25);
+  //    print(url);
+  //   switch (url) {
+  //       case "home":
+  //         return ScreenTypeLayout(
+  //           desktop: LandingPageDesktop(),
+  //           mobile: LandingPageMobile(),
+  //         );
+  //         break;
+  //       case "sign-in":
+  //         return SignIn();
+  //         break;
+  //       default:
+  //     }
+  // }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: MyAppBar(height: 100.0),
-      body: whichScreenToReturn(),
-      
-      // ScreenTypeLayout(
-      //   desktop: LandingPageDesktop(),
-      //   mobile: LandingPageMobile(),
-      //   ),
+      body: ScreenTypeLayout(
+        desktop: LandingPageDesktop(),
+        mobile: LandingPageMobile(),
+        ),
     );
   }
 }
