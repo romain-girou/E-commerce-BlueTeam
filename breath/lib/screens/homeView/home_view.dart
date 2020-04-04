@@ -35,6 +35,7 @@ class HomeView extends StatelessWidget {
           child: ListView(
             children: <Widget>[
               LandingPageDesktop(),
+              SizedBox(height: 250.0),
               ProductPageDesktop(),
             ],
           ),
