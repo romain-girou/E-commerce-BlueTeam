@@ -2,6 +2,18 @@
   "configVersion": 2,
   "packages": [
     {
+      "name": "analyzer",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/analyzer-0.38.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.2"
+    },
+    {
+      "name": "analyzer_plugin",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/analyzer_plugin-0.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
       "name": "archive",
       "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/archive-2.0.11",
       "packageUri": "lib/",
@@ -32,10 +44,46 @@
       "languageVersion": "2.0"
     },
     {
+      "name": "build",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/build-1.2.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.3"
+    },
+    {
+      "name": "build_config",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/build_config-0.4.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.6"
+    },
+    {
+      "name": "built_collection",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/built_collection-4.3.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.6"
+    },
+    {
+      "name": "built_value",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/built_value-6.8.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "built_value_generator",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/built_value_generator-6.8.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
       "name": "charcode",
       "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/charcode-1.1.2",
       "packageUri": "lib/",
       "languageVersion": "1.0"
+    },
+    {
+      "name": "checked_yaml",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/checked_yaml-1.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.3"
     },
     {
       "name": "collection",
@@ -56,10 +104,28 @@
       "languageVersion": "2.1"
     },
     {
+      "name": "csslib",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/csslib-0.16.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
       "name": "cupertino_icons",
       "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-0.1.3",
       "packageUri": "lib/",
       "languageVersion": "2.0"
+    },
+    {
+      "name": "dart_style",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/dart_style-1.3.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.3"
+    },
+    {
+      "name": "fixnum",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/fixnum-0.10.11",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
     },
     {
       "name": "fluro",
@@ -80,8 +146,50 @@
       "languageVersion": "2.2"
     },
     {
+      "name": "front_end",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/front_end-0.1.27",
+      "packageUri": "lib/",
+      "languageVersion": "2.2"
+    },
+    {
+      "name": "glob",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/glob-1.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "html",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/html-0.14.0+3",
+      "packageUri": "lib/",
+      "languageVersion": "2.3"
+    },
+    {
       "name": "image",
       "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/image-2.1.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "js",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/js-0.6.1+1",
+      "packageUri": "lib/",
+      "languageVersion": "1.19"
+    },
+    {
+      "name": "json_annotation",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/json_annotation-3.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.6"
+    },
+    {
+      "name": "kernel",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/kernel-0.3.27",
+      "packageUri": "lib/",
+      "languageVersion": "2.2"
+    },
+    {
+      "name": "logging",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/logging-0.11.4",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
@@ -98,16 +206,52 @@
       "languageVersion": "1.12"
     },
     {
+      "name": "node_interop",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/node_interop-1.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "node_io",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/node_io-1.0.1+2",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "package_config",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/package_config-1.9.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    },
+    {
       "name": "path",
       "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/path-1.6.4",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
+      "name": "pedantic",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/pedantic-1.9.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
       "name": "petitparser",
       "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/petitparser-2.4.0",
       "packageUri": "lib/",
       "languageVersion": "2.4"
+    },
+    {
+      "name": "pub_semver",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/pub_semver-1.4.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "pubspec_parse",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/pubspec_parse-0.1.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.2"
     },
     {
       "name": "quiver",
@@ -128,10 +272,22 @@
       "languageVersion": "1.11"
     },
     {
+      "name": "source_gen",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/source_gen-0.9.4+6",
+      "packageUri": "lib/",
+      "languageVersion": "2.3"
+    },
+    {
       "name": "source_span",
       "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/source_span-1.5.5",
       "packageUri": "lib/",
       "languageVersion": "1.8"
+    },
+    {
+      "name": "square_in_app_payments",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/square_in_app_payments-1.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
     },
     {
       "name": "stack_trace",
@@ -176,10 +332,22 @@
       "languageVersion": "2.0"
     },
     {
+      "name": "watcher",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/watcher-0.9.7+14",
+      "packageUri": "lib/",
+      "languageVersion": "2.2"
+    },
+    {
       "name": "xml",
       "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/xml-3.5.0",
       "packageUri": "lib/",
       "languageVersion": "2.3"
+    },
+    {
+      "name": "yaml",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/yaml-2.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
     },
     {
       "name": "breath",
@@ -188,7 +356,7 @@
       "languageVersion": "2.2"
     }
   ],
-  "generated": "2020-03-30T13:45:58.300982Z",
+  "generated": "2020-04-02T12:27:54.921780Z",
   "generator": "pub",
   "generatorVersion": "2.8.0-dev.12.0.flutter-9983424a3c"
 }
