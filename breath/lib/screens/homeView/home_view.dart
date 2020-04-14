@@ -6,6 +6,7 @@ import 'package:breath_seinajoki/screens/ProductPage/product_page_desktop.dart';
 import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 import 'dart:html';
+import 'package:breath_seinajoki/screens/paymentPage/payment.dart';
 
 class HomeView extends StatelessWidget {
 
@@ -26,29 +27,28 @@ class HomeView extends StatelessWidget {
   //     }
   // }
 
- @override
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: MyAppBar(height: 100.0),
-      body: ScreenTypeLayout(
-        desktop: Scrollbar(
-          child: ListView(
-            children: <Widget>[
-              LandingPageDesktop(),
-              SizedBox(height: 250.0),
-              ProductPageDesktop(),
-            ],
-          ),
+        appBar: MyAppBar(height: 100.0),
+        body: ScreenTypeLayout(
+            desktop: Scrollbar(
+                child: ListView(
+                    children: <Widget>[
+                      LandingPageDesktop(),
+                      SizedBox(height: 250.0),
+                      ProductPageDesktop(),
+                    ],
+                ),
+            ),
+            mobile: Scrollbar(
+                child: ListView(
+                    children: <Widget>[
+                      LandingPageMobile(),
+                      ProductPageDesktop(), //TODO: Change to ProductPageMobile
+                    ],
+                ),
+            ),
         ),
-        mobile: Scrollbar(
-          child: ListView(
-            children: <Widget>[
-              LandingPageMobile(),
-              ProductPageDesktop(), //TODO: Change to ProductPageMobile
-            ],
-          ),
-        ),
-        ),
-    );
-  }
-}
+        );
+  }}
