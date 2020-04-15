@@ -30,27 +30,26 @@ class HomeView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ThankPage();
-    //return Scaffold(
-    //    appBar: MyAppBar(height: 100.0),
-    //    body: ScreenTypeLayout(
-    //        desktop: Scrollbar(
-    //            child: ListView(
-    //                children: <Widget>[
-    //                  LandingPageDesktop(),
-    //                  SizedBox(height: 250.0),
-    //                  ProductPageDesktop(),
-    //                ],
-    //            ),
-    //        ),
-    //        mobile: Scrollbar(
-    //            child: ListView(
-    //                children: <Widget>[
-    //                  LandingPageMobile(),
-    //                  ProductPageDesktop(), //TODO: Change to ProductPageMobile
-    //                ],
-    //            ),
-    //        ),
-    //    ),
-    //    );
+    return Scaffold(
+        appBar: MyAppBar(height: 100.0),
+        body: ScreenTypeLayout(
+            desktop: Scrollbar(
+                child: ListView(
+                    children: <Widget>[
+                      LandingPageDesktop(),
+                      SizedBox(height: 250.0),
+                      ProductPageDesktop(),
+                    ],
+                ),
+            ),
+            mobile: Scrollbar(
+                child: ListView(
+                    children: <Widget>[
+                      LandingPageMobile(),
+                      ProductPageDesktop(), //TODO: Change to ProductPageMobile
+                    ],
+                ),
+            ),
+        ),
+        );
   }}

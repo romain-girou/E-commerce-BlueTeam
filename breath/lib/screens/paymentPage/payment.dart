@@ -179,7 +179,7 @@ class _PaymentState extends State<Payment> {
                                               style: TextStyle(color: Colors.grey[700]),
                                               recognizer: TapGestureRecognizer()
                                               ..onTap = () {
-                                                Navigator.pushNamed(context, HomeRoute);
+                                                Navigator.pushNamed(context, ThankRoute);
                                               },
                                           ),
                                         ])),
@@ -207,6 +207,7 @@ class _PaymentState extends State<Payment> {
                                                     phone,
                                                     instructions,
                                             ));
+                                            Navigator.pushNamed(context, ThankRoute);
                                             //dynamic result =
                                             //    await _payment.updateDeliveryData(
                                             //        fullName,
@@ -227,7 +228,7 @@ class _PaymentState extends State<Payment> {
                                             //} else {
                                             //  Navigator.of(context).pop();
                                             //}
-                                            Navigator.of(context).pop();
+                                            //Navigator.of(context).pop();
                                           }
                                         },
                                         ),

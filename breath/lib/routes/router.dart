@@ -3,6 +3,7 @@ import 'package:breath_seinajoki/authenticate/sign_in.dart';
 import 'package:breath_seinajoki/routes/routes_names.dart';
 import 'package:breath_seinajoki/screens/homeView/home_view.dart';
 import 'package:breath_seinajoki/screens/paymentPage/payment.dart';
+import 'package:breath_seinajoki/screens/paymentPage/thankPage.dart';
 import 'package:flutter/material.dart';
 import 'package:fluro/fluro.dart';
 
@@ -24,6 +25,9 @@ class FluroRouter {
   static Handler _paymenthandler = Handler(
       handlerFunc: (BuildContext context, Map<String, dynamic> params) =>
       Payment());
+  static Handler _thankhandler = Handler(
+      handlerFunc: (BuildContext context, Map<String, dynamic> params) =>
+      ThankPage());
 
   // static Handler _wrapperhandler = Handler(
   //     handlerFunc: (BuildContext context, Map<String, dynamic> params) =>
@@ -45,6 +49,10 @@ class FluroRouter {
     router.define(
         PaymentRoute,
         handler: _paymenthandler)
+        ;
+    router.define(
+        ThankRoute,
+        handler: _thankhandler)
         ;
     // router.define(
     //   WrapperRoute,
