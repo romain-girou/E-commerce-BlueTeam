@@ -60,8 +60,11 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget{
                                         IconButton(
                                             icon: Icon(Icons.add_shopping_cart),
                                             onPressed: () {
-                                              //Scaffold.of(context).openEndDrawer();
-                                              return Navigator.pushNamed(context, PaymentRoute);
+                                              if (user == null) {
+                                                return 'You have to log in first';
+                                              }else{
+                                                return Navigator.pushNamed(context, PaymentRoute);
+                                              }
                                             },
                                         ),
                                         SizedBox(width: 20.0),
@@ -75,14 +78,14 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget{
                                               }
                                             },
                                         ),
-                                      ],
-                                      ),
-                                      ]),
-                                      ),
-                                      ),
-                                      ),
-                                      ],
-                                      );
+                                        ],
+                                        ),
+                                        ]),
+                                        ),
+                                        ),
+                                        ),
+                                        ],
+                                        );
   }
 
   @override

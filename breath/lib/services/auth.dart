@@ -14,8 +14,8 @@ class AuthService {
   // auth change user stream
   Stream<User> get user {
     return _auth.onAuthStateChanged
-    //.map((FirebaseUser user) => _userFromFirebaseUser(user));
-    .map(_userFromFirebaseUser);
+        //.map((FirebaseUser user) => _userFromFirebaseUser(user));
+        .map(_userFromFirebaseUser);
   }
 
   // sign in with email & password
@@ -28,14 +28,14 @@ class AuthService {
       print(e.toString());
       return null;
     }
-  } 
+  }
 
   // register with email & password
   Future registerWithEmailAndPassword(String email, String password) async {
     try {
       AuthResult result = await _auth.createUserWithEmailAndPassword(email: email, password: password);
       FirebaseUser user = result.user;
-      
+
       // create a new document for the user with uid
       await DatabaseService(uid: user.uid).updateUserData(email, password);
       return _userFromFirebaseUser(user);
