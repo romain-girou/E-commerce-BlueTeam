@@ -272,6 +272,12 @@
       "languageVersion": "2.0"
     },
     {
+      "name": "stripe_payment",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/stripe_payment-1.0.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
       "name": "term_glyph",
       "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/term_glyph-1.1.0",
       "packageUri": "lib/",
@@ -308,7 +314,11 @@
       "languageVersion": "2.1"
     }
   ],
+<<<<<<< HEAD
   "generated": "2020-04-15T12:01:53.024904Z",
+=======
+  "generated": "2020-04-06T08:46:17.225866Z",
+>>>>>>> e0b382a578a3e49d8756efa1b245056589daa3a5
   "generator": "pub",
   "generatorVersion": "2.8.0-dev.12.0.flutter-9983424a3c"
 }

@@ -22,12 +22,19 @@
 @import firebase_core;
 #endif
 
+#if __has_include(<stripe_payment/StripePaymentPlugin.h>)
+#import <stripe_payment/StripePaymentPlugin.h>
+#else
+@import stripe_payment;
+#endif
+
 @implementation GeneratedPluginRegistrant
 
 + (void)registerWithRegistry:(NSObject<FlutterPluginRegistry>*)registry {
   [FLTCloudFirestorePlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTCloudFirestorePlugin"]];
   [FLTFirebaseAuthPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTFirebaseAuthPlugin"]];
   [FLTFirebaseCorePlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTFirebaseCorePlugin"]];
+  [StripePaymentPlugin registerWithRegistrar:[registry registrarForPlugin:@"StripePaymentPlugin"]];
 }
 
 @end
