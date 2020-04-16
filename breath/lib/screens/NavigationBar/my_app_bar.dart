@@ -60,7 +60,7 @@ final double height;
                     IconButton(
                       icon: Icon(Icons.add_shopping_cart),
                       onPressed: () {
-                        //Scaffold.of(context).openEndDrawer();
+                        Navigator.pushNamed(context, ShoppingCartRoute);
                       },
                     ),
                     SizedBox(width: 20.0),

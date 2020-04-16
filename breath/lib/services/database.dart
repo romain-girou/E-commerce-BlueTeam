@@ -9,11 +9,25 @@ class DatabaseService {
   // collection reference
   final CollectionReference userCollection = Firestore.instance.collection('user');
 
-  Future updateUserData (String email, String password) async {
+  Future updateUserData (String email, String password, List<Product> myProducts) async {
     return await userCollection.document(uid).setData({
       'email': email,
       'password': password,
+      'products': myProducts,
     });
+  }
+
+  Future updateUserProducts (Product myProduct) async {
+    return await userCollection.document(uid).setData({
+      'products': myProduct
+    });
+  }
+
+  // products list from snapshot
+  List<Product> _productsListFromSnapshot(QuerySnapshot snapshot) {
+    return snapshot.documents.map((doc) {
+      return doc.data['products'];
+    }).toList();
   }
 
   // userData from snapshot
@@ -21,7 +35,8 @@ class DatabaseService {
     return UserData(
       uid: uid,
       email: snapshot.data['email'],
-      password: snapshot.data['password']
+      password: snapshot.data['password'],
+      myProduct: snapshot.data['products'],
     );
   }
 

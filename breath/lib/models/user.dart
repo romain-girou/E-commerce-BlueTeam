@@ -9,8 +9,18 @@ class UserData {
 
   final String uid;
   final String email;
-  final int password;
+  final String password;
+  List<dynamic> myProduct;
 
-  UserData ({this.uid, this.email, this.password});
+  UserData ({this.uid, this.email, this.password, this.myProduct});
   
+}
+
+class Product {
+
+  String name;
+  double price;
+
+  Product({this.name, this.price});
+
 }
