@@ -1,5 +1,5 @@
-import 'package:breath_seinajoki/authenticate/register.dart';
-import 'package:breath_seinajoki/authenticate/sign_in.dart';
+import 'package:breath/authenticate/register.dart';
+import 'package:breath/authenticate/sign_in.dart';
 import 'package:flutter/material.dart';
 
 class Authenticate extends StatefulWidget {

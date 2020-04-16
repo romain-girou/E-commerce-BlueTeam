@@ -1,4 +1,4 @@
-import 'package:breath_seinajoki/routes/routes_names.dart';
+import 'package:breath/routes/routes_names.dart';
 import 'package:flutter/material.dart';
 
 class MyDrawer extends StatefulWidget {

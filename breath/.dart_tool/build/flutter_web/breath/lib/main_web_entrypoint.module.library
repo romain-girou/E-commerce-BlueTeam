@@ -1,1 +1,1 @@
-{"isEntrypoint":true,"deps":["breath|lib/main.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["ui"],"hasMain":true}
+{"isEntrypoint":true,"deps":["flutter_web_plugins|lib/flutter_web_plugins.dart","breath|lib/generated_plugin_registrant.dart","breath|lib/main.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["ui"],"hasMain":true}

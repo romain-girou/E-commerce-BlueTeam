@@ -1,1 +1,1 @@
-{"p":["breath","lib/main_web_entrypoint.dart"],"s":[["breath","lib/main_web_entrypoint.dart"]],"d":[["breath","lib/main.dart"]],"m":false,"is":true,"pf":"flutter_web"}
+{"p":["breath","lib/main_web_entrypoint.dart"],"s":[["breath","lib/main_web_entrypoint.dart"]],"d":[["breath","lib/generated_plugin_registrant.dart"],["breath","lib/main.dart"],["flutter_web_plugins","lib/flutter_web_plugins.dart"]],"m":false,"is":true,"pf":"flutter_web"}

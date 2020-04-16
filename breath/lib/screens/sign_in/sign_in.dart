@@ -1,4 +1,4 @@
-import 'package:breath_seinajoki/screens/NavigationBar/my_app_bar.dart';
+import 'package:breath/screens/NavigationBar/my_app_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 

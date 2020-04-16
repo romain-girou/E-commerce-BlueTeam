@@ -1,4 +1,4 @@
-import 'package:breath_seinajoki/models/user.dart';
+import 'package:breath/models/user.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 class DatabaseService {

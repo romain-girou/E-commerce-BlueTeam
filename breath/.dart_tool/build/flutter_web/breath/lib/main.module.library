@@ -1,1 +1,1 @@
-{"isEntrypoint":true,"deps":["breath|lib/routes/router.dart","breath|lib/routes/routes_names.dart","flutter|lib/material.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":true}
+{"isEntrypoint":true,"deps":["breath|lib/routes/router.dart","breath|lib/routes/routes_names.dart","breath|lib/services/auth.dart","flutter|lib/material.dart","provider|lib/provider.dart","breath|lib/models/user.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":true}

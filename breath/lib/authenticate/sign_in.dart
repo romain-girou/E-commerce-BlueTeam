@@ -1,7 +1,7 @@
-import 'package:breath_seinajoki/routes/routes_names.dart';
-import 'package:breath_seinajoki/screens/NavigationBar/my_app_bar.dart';
-import 'package:breath_seinajoki/services/auth.dart';
-import 'package:breath_seinajoki/shared/constants.dart';
+import 'package:breath/routes/routes_names.dart';
+import 'package:breath/screens/NavigationBar/my_app_bar.dart';
+import 'package:breath/services/auth.dart';
+import 'package:breath/shared/constants.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 

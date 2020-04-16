@@ -11,12 +11,18 @@ define(['dart_sdk'], function(dart_sdk) {
     },
     /*routes_names.SignInRoute*/get SignInRoute() {
       return "/sign-in";
+    },
+    /*routes_names.RegisterRoute*/get RegisterRoute() {
+      return "/register";
+    },
+    /*routes_names.WrapperRoute*/get WrapperRoute() {
+      return "/wrapper";
     }
   });
   dart.trackLibraries("packages/breath/routes/routes_names", {
     "package:breath/routes/routes_names.dart": routes_names
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["routes_names.dart"],"names":[],"mappings":";;;;;;;;MAAa,sBAAS;;;MACT,wBAAW","file":"routes_names.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["routes_names.dart"],"names":[],"mappings":";;;;;;;;MAAa,sBAAS;;;MACT,wBAAW;;;MACX,0BAAa;;;MACb,yBAAY","file":"routes_names.ddc.js"}');
   // Exports:
   return {
     routes__routes_names: routes_names

@@ -1,8 +1,8 @@
-import 'package:breath_seinajoki/authenticate/sign_in.dart';
-import 'package:breath_seinajoki/screens/LandingPage/landing_page_desktop.dart';
-import 'package:breath_seinajoki/screens/LandingPage/landing_page_mobile.dart';
-import 'package:breath_seinajoki/screens/NavigationBar/my_app_bar.dart';
-import 'package:breath_seinajoki/screens/ProductPage/product_page_desktop.dart';
+import 'package:breath/authenticate/sign_in.dart';
+import 'package:breath/screens/LandingPage/landing_page_desktop.dart';
+import 'package:breath/screens/LandingPage/landing_page_mobile.dart';
+import 'package:breath/screens/NavigationBar/my_app_bar.dart';
+import 'package:breath/screens/ProductPage/product_page_desktop.dart';
 import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 import 'dart:html';

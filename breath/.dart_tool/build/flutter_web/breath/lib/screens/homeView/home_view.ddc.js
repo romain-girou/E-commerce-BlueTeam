@@ -1,4 +1,4 @@
-define(['dart_sdk', 'packages/flutter/material', 'packages/breath/screens/NavigationBar/my_app_bar', 'packages/flutter/src/widgets/actions', 'packages/breath/screens/NavigationBar/my_drawer', 'packages/responsive_builder/responsive_builder', 'packages/breath/screens/LandingPage/landing_page_desktop', 'packages/breath/screens/ProductPage/product_page', 'packages/breath/screens/LandingPage/landing_page_mobile'], function(dart_sdk, packages__flutter__material, packages__breath__screens__NavigationBar__my_app_bar, packages__flutter__src__widgets__actions, packages__breath__screens__NavigationBar__my_drawer, packages__responsive_builder__responsive_builder, packages__breath__screens__LandingPage__landing_page_desktop, packages__breath__screens__ProductPage__product_page, packages__breath__screens__LandingPage__landing_page_mobile) {
+define(['dart_sdk', 'packages/flutter/material', 'packages/breath/screens/NavigationBar/my_app_bar', 'packages/flutter/src/widgets/actions', 'packages/responsive_builder/responsive_builder', 'packages/breath/screens/LandingPage/landing_page_desktop', 'packages/breath/screens/ProductPage/product_page_desktop', 'packages/breath/screens/LandingPage/landing_page_mobile'], function(dart_sdk, packages__flutter__material, packages__breath__screens__NavigationBar__my_app_bar, packages__flutter__src__widgets__actions, packages__responsive_builder__responsive_builder, packages__breath__screens__LandingPage__landing_page_desktop, packages__breath__screens__ProductPage__product_page_desktop, packages__breath__screens__LandingPage__landing_page_mobile) {
   'use strict';
   const core = dart_sdk.core;
   const _interceptors = dart_sdk._interceptors;
@@ -9,11 +9,11 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/breath/screens/Naviga
   const my_app_bar = packages__breath__screens__NavigationBar__my_app_bar.screens__NavigationBar__my_app_bar;
   const widget_inspector = packages__flutter__src__widgets__actions.src__widgets__widget_inspector;
   const scroll_view = packages__flutter__src__widgets__actions.src__widgets__scroll_view;
+  const basic = packages__flutter__src__widgets__actions.src__widgets__basic;
   const framework = packages__flutter__src__widgets__actions.src__widgets__framework;
-  const my_drawer = packages__breath__screens__NavigationBar__my_drawer.screens__NavigationBar__my_drawer;
   const responsive_builder = packages__responsive_builder__responsive_builder.responsive_builder;
   const landing_page_desktop = packages__breath__screens__LandingPage__landing_page_desktop.screens__LandingPage__landing_page_desktop;
-  const product_page = packages__breath__screens__ProductPage__product_page.screens__ProductPage__product_page;
+  const product_page_desktop = packages__breath__screens__ProductPage__product_page_desktop.screens__ProductPage__product_page_desktop;
   const landing_page_mobile = packages__breath__screens__LandingPage__landing_page_mobile.screens__LandingPage__landing_page_mobile;
   const home_view = Object.create(dart.library);
   let JSArrayOfWidget = () => (JSArrayOfWidget = dart.constFn(_interceptors.JSArray$(framework.Widget)))();
@@ -25,7 +25,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/breath/screens/Naviga
         [_Location_parameterLocations]: null,
         [_Location_name]: "height",
         [_Location_column]: 24,
-        [_Location_line]: 14,
+        [_Location_line]: 32,
         [_Location_file]: null
       });
     },
@@ -38,7 +38,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/breath/screens/Naviga
         [_Location_parameterLocations]: C1 || CT.C1,
         [_Location_name]: null,
         [_Location_column]: 15,
-        [_Location_line]: 14,
+        [_Location_line]: 32,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/homeView/home_view.dart"
       });
     },
@@ -50,216 +50,219 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/breath/screens/Naviga
         __proto__: widget_inspector._Location.prototype,
         [_Location_parameterLocations]: C4 || CT.C4,
         [_Location_name]: null,
-        [_Location_column]: 18,
-        [_Location_line]: 15,
-        [_Location_file]: "org-dartlang-app:///packages/breath/screens/homeView/home_view.dart"
-      });
-    },
-    get C5() {
-      return C5 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: C4 || CT.C4,
-        [_Location_name]: null,
         [_Location_column]: 15,
-        [_Location_line]: 20,
+        [_Location_line]: 37,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/homeView/home_view.dart"
       });
-    },
-    get C6() {
-      return C6 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: C4 || CT.C4,
-        [_Location_name]: null,
-        [_Location_column]: 15,
-        [_Location_line]: 21,
-        [_Location_file]: "org-dartlang-app:///packages/breath/screens/homeView/home_view.dart"
-      });
-    },
-    get C9() {
-      return C9 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: null,
-        [_Location_name]: "children",
-        [_Location_column]: 13,
-        [_Location_line]: 19,
-        [_Location_file]: null
-      });
-    },
-    get C8() {
-      return C8 = dart.constList([C9 || CT.C9], widget_inspector._Location);
     },
     get C7() {
       return C7 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: C8 || CT.C8,
-        [_Location_name]: null,
-        [_Location_column]: 18,
-        [_Location_line]: 18,
-        [_Location_file]: "org-dartlang-app:///packages/breath/screens/homeView/home_view.dart"
-      });
-    },
-    get C12() {
-      return C12 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
         [_Location_parameterLocations]: null,
-        [_Location_name]: "child",
-        [_Location_column]: 11,
-        [_Location_line]: 18,
+        [_Location_name]: "height",
+        [_Location_column]: 24,
+        [_Location_line]: 38,
         [_Location_file]: null
       });
     },
-    get C11() {
-      return C11 = dart.constList([C12 || CT.C12], widget_inspector._Location);
+    get C6() {
+      return C6 = dart.constList([C7 || CT.C7], widget_inspector._Location);
     },
-    get C10() {
-      return C10 = dart.const({
+    get C5() {
+      return C5 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: C11 || CT.C11,
+        [_Location_parameterLocations]: C6 || CT.C6,
         [_Location_name]: null,
-        [_Location_column]: 18,
-        [_Location_line]: 17,
+        [_Location_column]: 15,
+        [_Location_line]: 38,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/homeView/home_view.dart"
       });
     },
-    get C13() {
-      return C13 = dart.const({
+    get C8() {
+      return C8 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         [_Location_parameterLocations]: C4 || CT.C4,
         [_Location_name]: null,
         [_Location_column]: 15,
-        [_Location_line]: 28,
+        [_Location_line]: 39,
+        [_Location_file]: "org-dartlang-app:///packages/breath/screens/homeView/home_view.dart"
+      });
+    },
+    get C11() {
+      return C11 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "children",
+        [_Location_column]: 13,
+        [_Location_line]: 36,
+        [_Location_file]: null
+      });
+    },
+    get C10() {
+      return C10 = dart.constList([C11 || CT.C11], widget_inspector._Location);
+    },
+    get C9() {
+      return C9 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C10 || CT.C10,
+        [_Location_name]: null,
+        [_Location_column]: 18,
+        [_Location_line]: 35,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/homeView/home_view.dart"
       });
     },
     get C14() {
       return C14 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: C4 || CT.C4,
-        [_Location_name]: null,
-        [_Location_column]: 15,
-        [_Location_line]: 29,
-        [_Location_file]: "org-dartlang-app:///packages/breath/screens/homeView/home_view.dart"
-      });
-    },
-    get C17() {
-      return C17 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
         [_Location_parameterLocations]: null,
-        [_Location_name]: "children",
-        [_Location_column]: 13,
-        [_Location_line]: 27,
+        [_Location_name]: "child",
+        [_Location_column]: 11,
+        [_Location_line]: 35,
         [_Location_file]: null
       });
     },
-    get C16() {
-      return C16 = dart.constList([C17 || CT.C17], widget_inspector._Location);
+    get C13() {
+      return C13 = dart.constList([C14 || CT.C14], widget_inspector._Location);
+    },
+    get C12() {
+      return C12 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C13 || CT.C13,
+        [_Location_name]: null,
+        [_Location_column]: 18,
+        [_Location_line]: 34,
+        [_Location_file]: "org-dartlang-app:///packages/breath/screens/homeView/home_view.dart"
+      });
     },
     get C15() {
       return C15 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: C16 || CT.C16,
+        [_Location_parameterLocations]: C4 || CT.C4,
         [_Location_name]: null,
-        [_Location_column]: 18,
-        [_Location_line]: 26,
+        [_Location_column]: 15,
+        [_Location_line]: 46,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/homeView/home_view.dart"
       });
     },
-    get C20() {
-      return C20 = dart.const({
+    get C16() {
+      return C16 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C4 || CT.C4,
+        [_Location_name]: null,
+        [_Location_column]: 15,
+        [_Location_line]: 47,
+        [_Location_file]: "org-dartlang-app:///packages/breath/screens/homeView/home_view.dart"
+      });
+    },
+    get C19() {
+      return C19 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "children",
+        [_Location_column]: 13,
+        [_Location_line]: 45,
+        [_Location_file]: null
+      });
+    },
+    get C18() {
+      return C18 = dart.constList([C19 || CT.C19], widget_inspector._Location);
+    },
+    get C17() {
+      return C17 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C18 || CT.C18,
+        [_Location_name]: null,
+        [_Location_column]: 18,
+        [_Location_line]: 44,
+        [_Location_file]: "org-dartlang-app:///packages/breath/screens/homeView/home_view.dart"
+      });
+    },
+    get C22() {
+      return C22 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         [_Location_parameterLocations]: null,
         [_Location_name]: "child",
         [_Location_column]: 11,
-        [_Location_line]: 26,
+        [_Location_line]: 44,
         [_Location_file]: null
       });
     },
-    get C19() {
-      return C19 = dart.constList([C20 || CT.C20], widget_inspector._Location);
+    get C21() {
+      return C21 = dart.constList([C22 || CT.C22], widget_inspector._Location);
     },
-    get C18() {
-      return C18 = dart.const({
+    get C20() {
+      return C20 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: C19 || CT.C19,
+        [_Location_parameterLocations]: C21 || CT.C21,
         [_Location_name]: null,
         [_Location_column]: 17,
-        [_Location_line]: 25,
+        [_Location_line]: 43,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/homeView/home_view.dart"
       });
     },
-    get C23() {
-      return C23 = dart.const({
+    get C25() {
+      return C25 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         [_Location_parameterLocations]: null,
         [_Location_name]: "desktop",
         [_Location_column]: 9,
-        [_Location_line]: 17,
+        [_Location_line]: 34,
         [_Location_file]: null
       });
     },
-    get C24() {
-      return C24 = dart.const({
+    get C26() {
+      return C26 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         [_Location_parameterLocations]: null,
         [_Location_name]: "mobile",
         [_Location_column]: 9,
-        [_Location_line]: 25,
+        [_Location_line]: 43,
         [_Location_file]: null
       });
     },
-    get C22() {
-      return C22 = dart.constList([C23 || CT.C23, C24 || CT.C24], widget_inspector._Location);
+    get C24() {
+      return C24 = dart.constList([C25 || CT.C25, C26 || CT.C26], widget_inspector._Location);
     },
-    get C21() {
-      return C21 = dart.const({
+    get C23() {
+      return C23 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: C22 || CT.C22,
+        [_Location_parameterLocations]: C24 || CT.C24,
         [_Location_name]: null,
         [_Location_column]: 13,
-        [_Location_line]: 16,
+        [_Location_line]: 33,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/homeView/home_view.dart"
-      });
-    },
-    get C27() {
-      return C27 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: null,
-        [_Location_name]: "appBar",
-        [_Location_column]: 7,
-        [_Location_line]: 14,
-        [_Location_file]: null
-      });
-    },
-    get C28() {
-      return C28 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: null,
-        [_Location_name]: "endDrawer",
-        [_Location_column]: 7,
-        [_Location_line]: 15,
-        [_Location_file]: null
       });
     },
     get C29() {
       return C29 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         [_Location_parameterLocations]: null,
-        [_Location_name]: "body",
+        [_Location_name]: "appBar",
         [_Location_column]: 7,
-        [_Location_line]: 16,
+        [_Location_line]: 32,
         [_Location_file]: null
       });
     },
-    get C26() {
-      return C26 = dart.constList([C27 || CT.C27, C28 || CT.C28, C29 || CT.C29], widget_inspector._Location);
-    },
-    get C25() {
-      return C25 = dart.const({
+    get C30() {
+      return C30 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: C26 || CT.C26,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "body",
+        [_Location_column]: 7,
+        [_Location_line]: 33,
+        [_Location_file]: null
+      });
+    },
+    get C28() {
+      return C28 = dart.constList([C29 || CT.C29, C30 || CT.C30], widget_inspector._Location);
+    },
+    get C27() {
+      return C27 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C28 || CT.C28,
         [_Location_name]: null,
         [_Location_column]: 12,
-        [_Location_line]: 13,
+        [_Location_line]: 31,
         [_Location_file]: "org-dartlang-app:///packages/breath/screens/homeView/home_view.dart"
       });
     }
@@ -274,34 +277,35 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/breath/screens/Naviga
   let C0;
   let C4;
   let C3;
-  let C5;
-  let C6;
-  let C9;
-  let C8;
   let C7;
-  let C12;
+  let C6;
+  let C5;
+  let C8;
   let C11;
   let C10;
-  let C13;
+  let C9;
   let C14;
-  let C17;
-  let C16;
+  let C13;
+  let C12;
   let C15;
-  let C20;
+  let C16;
   let C19;
   let C18;
-  let C23;
-  let C24;
+  let C17;
   let C22;
   let C21;
-  let C27;
-  let C28;
-  let C29;
-  let C26;
+  let C20;
   let C25;
+  let C26;
+  let C24;
+  let C23;
+  let C29;
+  let C30;
+  let C28;
+  let C27;
   home_view.HomeView = class HomeView extends framework.StatelessWidget {
     build(context) {
-      return new scaffold.Scaffold.new({appBar: new my_app_bar.MyAppBar.new({height: 100.0, $creationLocationd_0dea112b090073317d4: C0 || CT.C0}), endDrawer: new my_drawer.MyDrawer.new({$creationLocationd_0dea112b090073317d4: C3 || CT.C3}), body: new responsive_builder.ScreenTypeLayout.new({desktop: new scrollbar.Scrollbar.new({child: new scroll_view.ListView.new({children: JSArrayOfWidget().of([new landing_page_desktop.LandingPageDesktop.new({$creationLocationd_0dea112b090073317d4: C5 || CT.C5}), new product_page.ProductPageDesktop.new({$creationLocationd_0dea112b090073317d4: C6 || CT.C6})]), $creationLocationd_0dea112b090073317d4: C7 || CT.C7}), $creationLocationd_0dea112b090073317d4: C10 || CT.C10}), mobile: new scrollbar.Scrollbar.new({child: new scroll_view.ListView.new({children: JSArrayOfWidget().of([new landing_page_mobile.LandingPageMobile.new({$creationLocationd_0dea112b090073317d4: C13 || CT.C13}), new product_page.ProductPageDesktop.new({$creationLocationd_0dea112b090073317d4: C14 || CT.C14})]), $creationLocationd_0dea112b090073317d4: C15 || CT.C15}), $creationLocationd_0dea112b090073317d4: C18 || CT.C18}), $creationLocationd_0dea112b090073317d4: C21 || CT.C21}), $creationLocationd_0dea112b090073317d4: C25 || CT.C25});
+      return new scaffold.Scaffold.new({appBar: new my_app_bar.MyAppBar.new({height: 100.0, $creationLocationd_0dea112b090073317d4: C0 || CT.C0}), body: new responsive_builder.ScreenTypeLayout.new({desktop: new scrollbar.Scrollbar.new({child: new scroll_view.ListView.new({children: JSArrayOfWidget().of([new landing_page_desktop.LandingPageDesktop.new({$creationLocationd_0dea112b090073317d4: C3 || CT.C3}), new basic.SizedBox.new({height: 250.0, $creationLocationd_0dea112b090073317d4: C5 || CT.C5}), new product_page_desktop.ProductPageDesktop.new({$creationLocationd_0dea112b090073317d4: C8 || CT.C8})]), $creationLocationd_0dea112b090073317d4: C9 || CT.C9}), $creationLocationd_0dea112b090073317d4: C12 || CT.C12}), mobile: new scrollbar.Scrollbar.new({child: new scroll_view.ListView.new({children: JSArrayOfWidget().of([new landing_page_mobile.LandingPageMobile.new({$creationLocationd_0dea112b090073317d4: C15 || CT.C15}), new product_page_desktop.ProductPageDesktop.new({$creationLocationd_0dea112b090073317d4: C16 || CT.C16})]), $creationLocationd_0dea112b090073317d4: C17 || CT.C17}), $creationLocationd_0dea112b090073317d4: C20 || CT.C20}), $creationLocationd_0dea112b090073317d4: C23 || CT.C23}), $creationLocationd_0dea112b090073317d4: C27 || CT.C27});
     }
   };
   (home_view.HomeView.new = function(opts) {
@@ -318,7 +322,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/breath/screens/Naviga
   dart.trackLibraries("packages/breath/screens/homeView/home_view", {
     "package:breath/screens/homeView/home_view.dart": home_view
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["home_view.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;UAW4B;AACxB,YAAO,oCACG,qCAAiB,yEACd,yFACL,sDACK,oCACA,wCACa,sBAChB,wGACA,0NAIE,oCACC,wCACa,sBAChB,wGACA;IAMZ;;;;;;EACF","file":"home_view.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["home_view.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;UA6B4B;AACxB,YAAO,oCACG,qCAAiB,oEACnB,sDACK,oCACA,wCACa,sBAChB,wGACA,gCAAiB,8DACjB,kOAIE,oCACC,wCACa,sBAChB,wGACA;IAMZ;;;;;;EACF","file":"home_view.ddc.js"}');
   // Exports:
   return {
     screens__homeView__home_view: home_view

@@ -1,5 +1,5 @@
-import 'package:breath_seinajoki/models/user.dart';
-import 'package:breath_seinajoki/services/database.dart';
+import 'package:breath/models/user.dart';
+import 'package:breath/services/database.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 class AuthService {

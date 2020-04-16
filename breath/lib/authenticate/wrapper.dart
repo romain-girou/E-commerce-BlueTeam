@@ -1,6 +1,6 @@
-import 'package:breath_seinajoki/authenticate/authenticate.dart';
-import 'package:breath_seinajoki/models/user.dart';
-import 'package:breath_seinajoki/screens/homeView/home_view.dart';
+import 'package:breath/authenticate/authenticate.dart';
+import 'package:breath/models/user.dart';
+import 'package:breath/screens/homeView/home_view.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

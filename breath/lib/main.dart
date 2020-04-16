@@ -1,6 +1,6 @@
-import 'package:breath_seinajoki/routes/router.dart';
-import 'package:breath_seinajoki/routes/routes_names.dart';
-import 'package:breath_seinajoki/services/auth.dart';
+import 'package:breath/routes/router.dart';
+import 'package:breath/routes/routes_names.dart';
+import 'package:breath/services/auth.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'models/user.dart';

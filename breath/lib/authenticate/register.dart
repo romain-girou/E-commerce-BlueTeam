@@ -1,8 +1,8 @@
-import 'package:breath_seinajoki/shared/loading.dart';
+import 'package:breath/shared/loading.dart';
 import 'package:flutter/material.dart';
-import 'package:breath_seinajoki/screens/NavigationBar/my_app_bar.dart';
-import 'package:breath_seinajoki/screens/NavigationBar/my_drawer.dart';
-import 'package:breath_seinajoki/services/auth.dart';
+import 'package:breath/screens/NavigationBar/my_app_bar.dart';
+import 'package:breath/screens/NavigationBar/my_drawer.dart';
+import 'package:breath/services/auth.dart';
 
 class Register extends StatefulWidget {
 
