@@ -2,6 +2,7 @@ import 'package:breath_seinajoki/authenticate/register.dart';
 import 'package:breath_seinajoki/authenticate/sign_in.dart';
 import 'package:breath_seinajoki/routes/routes_names.dart';
 import 'package:breath_seinajoki/screens/homeView/home_view.dart';
+import 'package:breath_seinajoki/screens/paymentPage/payment.dart';
 import 'package:flutter/material.dart';
 import 'package:fluro/fluro.dart';
 
@@ -13,33 +14,40 @@ class FluroRouter {
 
   static Handler _homehandler = Handler(
       handlerFunc: (BuildContext context, Map<String, dynamic> params) =>
-          HomeView());
+      HomeView());
   static Handler _signInhandler = Handler(
       handlerFunc: (BuildContext context, Map<String, dynamic> params) =>
-          SignIn());
+      SignIn());
   static Handler _registerhandler = Handler(
       handlerFunc: (BuildContext context, Map<String, dynamic> params) =>
-          Register());
-          
+      Register());
+  static Handler _paymenthandler = Handler(
+      handlerFunc: (BuildContext context, Map<String, dynamic> params) =>
+      Payment());
+
   // static Handler _wrapperhandler = Handler(
   //     handlerFunc: (BuildContext context, Map<String, dynamic> params) =>
   //         Wrapper());
 
   static void setupRouter() {
     router.define(
-      HomeRoute,
-      handler: _homehandler,
+        HomeRoute,
+        handler: _homehandler,
     );
     router.define(
-      SignInRoute, 
-      handler: _signInhandler)
-    ;
+        SignInRoute,
+        handler: _signInhandler)
+        ;
     router.define(
-      RegisterRoute, 
-      handler: _registerhandler)
-    ;
+        RegisterRoute,
+        handler: _registerhandler)
+        ;
+    router.define(
+        PaymentRoute,
+        handler: _paymenthandler)
+        ;
     // router.define(
-    //   WrapperRoute, 
+    //   WrapperRoute,
     //   handler: _wrapperhandler)
     // ;
     // router.define(

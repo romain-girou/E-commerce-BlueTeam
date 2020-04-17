@@ -4,6 +4,7 @@ import 'package:breath_seinajoki/services/auth.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'models/user.dart';
+//import 'package:breath_seinajoki/screens/paymentPage/payment.dart';
 
 
 void main() {
@@ -16,18 +17,18 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return StreamProvider<User>.value(
-      value: AuthService().user,
+        value: AuthService().user,
         child: MaterialApp(
-        debugShowCheckedModeBanner: false,
-        title: 'Breath',
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-          cursorColor: Colors.black12,
+            debugShowCheckedModeBanner: false,
+            title: 'Breath',
+            theme: ThemeData(
+                primarySwatch: Colors.blue,
+                cursorColor: Colors.black12,
+            ),
+            // navigatorKey: locator<NavigationService>().navigatorKey,
+            initialRoute: HomeRoute,
+            onGenerateRoute: FluroRouter.router.generator,
         ),
-        // navigatorKey: locator<NavigationService>().navigatorKey,
-        initialRoute: HomeRoute,
-        onGenerateRoute: FluroRouter.router.generator,
-      ),
     );
   }
 }
