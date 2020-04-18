@@ -4,3 +4,4 @@ const String RegisterRoute = "/register";
 const String WrapperRoute = "/wrapper";
 const String PaymentRoute = "/payment";
 const String ThankRoute = "/thank";
+const String CardRoute = "/card";
