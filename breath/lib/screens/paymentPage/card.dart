@@ -1,12 +1,10 @@
+import 'package:breath_seinajoki/models/user.dart';
 import 'package:breath_seinajoki/routes/routes_names.dart';
 import 'package:breath_seinajoki/services/card.dart';
-import 'package:breath_seinajoki/services/paymentProcessing.dart';
 import 'package:breath_seinajoki/shared/constants.dart';
 import 'package:flutter/material.dart';
-import 'package:breath_seinajoki/models/user.dart';
 import 'package:provider/provider.dart';
 import 'package:stripe_payment/stripe_payment.dart';
-import 'dart:convert';
 
 class CardPage extends StatefulWidget {
   @override
@@ -29,19 +27,16 @@ class _CardPageState extends State<CardPage> {
   String expDate = '';
   String crypto = '';
 
+  // test CrediCard
   final CreditCard card = CreditCard(
     number: '4000002760003184',
     expMonth: 12,
     expYear: 21,
   );
+
   @override
   initState() {
     super.initState();
-    StripeService.init();
-    // StripePayment.setOptions(StripeOptions(
-    //     publishableKey: "pk_test_aSaULNS8cJU6Tvo20VAXy6rp",
-    //     merchantId: "Test",
-    //     androidPayMode: 'test'));
   }
 
   void setError(dynamic error) {
@@ -54,13 +49,12 @@ class _CardPageState extends State<CardPage> {
 
   @override
   Widget build(BuildContext context) {
-    //final user = Provider.of<User>(context);
-    //if (user.uid == null) {
-    //  Navigator.of(context).pop();
-    //}
-    dynamic uid = '20b32OVMo1RCgsPUkaLdZ60vbKo2';
+    final user = Provider.of<User>(context);
+    if (user.uid == null) {
+      Navigator.of(context).pop();
+    }
 
-    final CardService _card = CardService(uid: uid); //user.uid);
+    final CardService _card = CardService(uid: user.uid); //user.uid);
 
     return Scaffold(
       key: _scaffoldKey,
@@ -153,8 +147,6 @@ class _CardPageState extends State<CardPage> {
                   ),
                   onPressed: () async {
                     // CreditCard card = CreditCard(number: numero,expMonth: int.parse(expDate.substring(1,3)),expYear: int.parse(expDate.substring(3,6)));
-
-
 
                     if (_formKey.currentState.validate()) {
                       setState(() {

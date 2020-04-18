@@ -220,33 +220,12 @@ class _PaymentState extends State<Payment> {
 
                             Navigator.pushNamed(context, CardRoute);
 
-                            //dynamic result =
-                            //    await _payment.updateDeliveryData(
-                            //        fullName,
-                            //        address,
-                            //        city,
-                            //        state,
-                            //        zip,
-                            //        country,
-                            //        phone,
-                            //        instructions,
-                            //    );
-                            //if (result == null) {
-                            //  setState(() {
-                            //    loading = false;
-                            //    error =
-                            //        'Could not continue the payment procedure';
-                            //  });
-                            //} else {
-                            //  Navigator.of(context).pop();
-                            //}
-                            //Navigator.of(context).pop();
-                          }
+                         }
                         },
                       ),
                       RaisedButton(
                           child: Text('Payment Process'),
-                          onPressed:  _paymentProcess,
+                          onPressed:  (){},
                       ),
                       SizedBox(height: 12.0),
                       Text(
@@ -267,29 +246,5 @@ class _PaymentState extends State<Payment> {
     );
 
   }
-    _paymentProcess() async {
-      print('beginning of the process');
-      try{
-      await InAppPayments.setSquareApplicationId(
-          'sq0idb-mxeD3at11vqj1OGDrtXXdA');
-      }catch(e){
-        print(e.toString);
-      }
-      print('appId set');
-      await InAppPayments.startCardEntryFlow(
-          onCardNonceRequestSuccess: (CardDetails result) {
-            try {
-              print('about to make the charge');
-              var chargeResult =
-                  PaymentsRepository.actuallyMakeTheCharge(result.nonce);
-              if (chargeResult != 'Success!')
-                print('success!');
-                throw new StateError(chargeResult);
-              //InAppPayments.completeCardEntry();
-            } catch (ex) {
-              InAppPayments.showCardNonceProcessingError(ex.toString());
-            }
-          },
-          onCardEntryCancel: () {});
-    }
+ 
 }
