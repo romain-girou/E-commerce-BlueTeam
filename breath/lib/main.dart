@@ -4,7 +4,7 @@ import 'package:breath_seinajoki/services/auth.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'models/user.dart';
-//import 'package:breath_seinajoki/screens/paymentPage/payment.dart';
+import 'package:breath_seinajoki/screens/homeView/home_view.dart';
 
 
 void main() {
@@ -25,8 +25,8 @@ class MyApp extends StatelessWidget {
                 primarySwatch: Colors.blue,
                 cursorColor: Colors.black12,
             ),
-            // navigatorKey: locator<NavigationService>().navigatorKey,
-            initialRoute: HomeRoute,
+            initialRoute: '/home',
+            home: HomeView(),
             onGenerateRoute: FluroRouter.router.generator,
         ),
     );

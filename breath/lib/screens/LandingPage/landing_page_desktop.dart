@@ -115,7 +115,7 @@ class LandingPageDesktop extends StatelessWidget {
                             ),
                           ),
                           RaisedButton ( // Order button
-                            onPressed: () {Navigator.pushNamed(context, SignInRoute);},
+                            onPressed: () {Navigator.pushNamed(context, PaymentRoute);},
                             textColor: Colors.white,
                             elevation: 3.0,
                             padding: const EdgeInsets.all(0.0),
@@ -128,20 +128,6 @@ class LandingPageDesktop extends StatelessWidget {
                                   colors: <Color>[
                                     Color(0xFF5C6BC0), // <=> Colors.indigo[400]
                                     Color(0xFF9FA8DA), // <=> Colors.indigo[200]
-                                    //Color(0xFF03A9F4), // <=> Colors.lightBlue
-                                    //Color(0xFF4FC3F7), // <=> Colors.lightBlue[300]
-                                    //Color(0xFFB3E5FC), // <=> Colors.lightBlue[100]
-
-                                    //Color(0xFF009688), // <=> Colors.teal
-                                    //Color(0xFF4DB6AC), // <=> Colors.teal[300]
-
-                                    //Color(0xFFBFBFBF), // <=> Colors.grey[400]
-                                    //Color(0xFFEEEEEE), // <=> Colors.grey[200]
-                                    //Color(0xFFE0E0E0), // <=> Colors.grey[300]
-
-                                    //Color(0xFF0D47A1),
-                                    //Color(0xFF1976D2),
-                                    //Color(0xFF42A5F5),
                                   ],
                                 ),
                               ),
