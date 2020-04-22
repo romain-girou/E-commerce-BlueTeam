@@ -2,22 +2,10 @@
   "configVersion": 2,
   "packages": [
     {
-      "name": "archive",
-      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/archive-2.0.11",
-      "packageUri": "lib/",
-      "languageVersion": "2.0"
-    },
-    {
-      "name": "args",
-      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/args-1.5.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.0"
-    },
-    {
       "name": "async",
-      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/async-2.4.0",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/async-2.4.1",
       "packageUri": "lib/",
-      "languageVersion": "2.0"
+      "languageVersion": "2.2"
     },
     {
       "name": "auto_size_text",
@@ -27,9 +15,9 @@
     },
     {
       "name": "boolean_selector",
-      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/boolean_selector-1.0.5",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.0.0",
       "packageUri": "lib/",
-      "languageVersion": "2.0"
+      "languageVersion": "2.4"
     },
     {
       "name": "carousel_slider",
@@ -39,9 +27,15 @@
     },
     {
       "name": "charcode",
-      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/charcode-1.1.2",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/charcode-1.1.3",
       "packageUri": "lib/",
-      "languageVersion": "1.0"
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "clock",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/clock-1.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
     },
     {
       "name": "cloud_firestore",
@@ -63,27 +57,21 @@
     },
     {
       "name": "collection",
-      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/collection-1.14.11",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/collection-1.14.12",
       "packageUri": "lib/",
       "languageVersion": "2.0"
-    },
-    {
-      "name": "convert",
-      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/convert-2.1.1",
-      "packageUri": "lib/",
-      "languageVersion": "1.17"
-    },
-    {
-      "name": "crypto",
-      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/crypto-2.1.3",
-      "packageUri": "lib/",
-      "languageVersion": "2.1"
     },
     {
       "name": "cupertino_icons",
       "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-0.1.3",
       "packageUri": "lib/",
       "languageVersion": "2.0"
+    },
+    {
+      "name": "fake_async",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/fake_async-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.2"
     },
     {
       "name": "firebase",
@@ -129,7 +117,7 @@
     },
     {
       "name": "fluro",
-      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/fluro-1.6.2",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/fluro-1.6.3",
       "packageUri": "lib/",
       "languageVersion": "2.6"
     },
@@ -170,12 +158,6 @@
       "languageVersion": "2.3"
     },
     {
-      "name": "image",
-      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/image-2.1.4",
-      "packageUri": "lib/",
-      "languageVersion": "2.0"
-    },
-    {
       "name": "js",
       "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/js-0.6.1+1",
       "packageUri": "lib/",
@@ -201,7 +183,7 @@
     },
     {
       "name": "path",
-      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/path-1.6.4",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/path-1.7.0",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
@@ -210,12 +192,6 @@
       "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/pedantic-1.9.0",
       "packageUri": "lib/",
       "languageVersion": "2.1"
-    },
-    {
-      "name": "petitparser",
-      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/petitparser-2.4.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.4"
     },
     {
       "name": "plugin_platform_interface",
@@ -249,9 +225,9 @@
     },
     {
       "name": "source_span",
-      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/source_span-1.5.5",
+      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/source_span-1.7.0",
       "packageUri": "lib/",
-      "languageVersion": "1.8"
+      "languageVersion": "2.6"
     },
     {
       "name": "stack_trace",
@@ -296,19 +272,13 @@
       "languageVersion": "2.0"
     },
     {
-      "name": "xml",
-      "rootUri": "file:///home/brokholy/.pub-cache/hosted/pub.dartlang.org/xml-3.5.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.3"
-    },
-    {
       "name": "breath_seinajoki",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.1"
     }
   ],
-  "generated": "2020-04-11T11:50:09.408529Z",
+  "generated": "2020-04-22T06:59:42.008282Z",
   "generator": "pub",
-  "generatorVersion": "2.8.0-dev.12.0.flutter-9983424a3c"
+  "generatorVersion": "2.9.0-1.0.dev.flutter-a12c36dd97"
 }

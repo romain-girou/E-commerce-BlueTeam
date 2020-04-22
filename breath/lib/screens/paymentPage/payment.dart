@@ -43,7 +43,7 @@ class _PaymentState extends State<Payment> {
     final PaymentService _payment = PaymentService(uid: user.uid);
 
     return Scaffold(
-        appBar: MyAppBar(height: 100.0),
+        //appBar: MyAppBar(height: 100.0),
         body: Scrollbar(
             child: ListView(
                 children: <Widget>[
@@ -207,27 +207,7 @@ class _PaymentState extends State<Payment> {
                                                     phone,
                                                     instructions,
                                             ));
-                                            //dynamic result =
-                                            //    await _payment.updateDeliveryData(
-                                            //        fullName,
-                                            //        address,
-                                            //        city,
-                                            //        state,
-                                            //        zip,
-                                            //        country,
-                                            //        phone,
-                                            //        instructions,
-                                            //    );
-                                            //if (result == null) {
-                                            //  setState(() {
-                                            //    loading = false;
-                                            //    error =
-                                            //        'Could not continue the payment procedure';
-                                            //  });
-                                            //} else {
-                                            //  Navigator.of(context).pop();
-                                            //}
-                                            Navigator.of(context).pop();
+                                            Navigator.pushNamed(context, ThankRoute);
                                           }
                                         },
                                         ),
