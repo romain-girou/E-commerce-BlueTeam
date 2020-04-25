@@ -1,4 +1,5 @@
 import 'package:breath_seinajoki/shared/loading.dart';
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:breath_seinajoki/screens/NavigationBar/my_app_bar.dart';
 import 'package:breath_seinajoki/screens/NavigationBar/my_drawer.dart';
@@ -27,7 +28,7 @@ class _RegisterState extends State<Register> {
   @override
   Widget build(BuildContext context) {
     return loading ? Loading() : Scaffold(
-        appBar: MyAppBar(height: 100.0),
+        // appBar: MyAppBar(height: 100.0),
         endDrawer: MyDrawer(),
         body: Center(
           child: Container(
@@ -94,17 +95,28 @@ class _RegisterState extends State<Register> {
                       });
                     },
                   ),
-                  RaisedButton(
-                    onPressed: () {
-                      Navigator.pop(context);
-                    },
-                    child: Text('Sign In',),
+                  SizedBox(height: 10.0),
+                  RichText(
+                    text: TextSpan(
+                      children: [
+                        TextSpan(
+                          text: 'Sign-in here',
+                          style: TextStyle(
+                            color: Colors.grey[700]
+                          ),
+                          recognizer: TapGestureRecognizer()
+                            ..onTap = () {
+                              Navigator.pop(context);
+                          },
+                        ),
+                      ]
+                    )
                   ),
                   SizedBox(height: 50,),
                   RaisedButton(
                     color: Colors.blue[400],
                     child: Text(
-                      'Sign in',
+                      'Register',
                       style: TextStyle(
                         color: Colors.white,
                       ),

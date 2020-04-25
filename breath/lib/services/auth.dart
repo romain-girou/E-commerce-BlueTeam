@@ -2,6 +2,7 @@ import 'package:breath_seinajoki/models/user.dart';
 import 'package:breath_seinajoki/services/database.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
+
 class AuthService {
 
   final FirebaseAuth _auth = FirebaseAuth.instance;
@@ -12,10 +13,10 @@ class AuthService {
   }
 
   // auth change user stream
-  Stream<User> get user {
-    return _auth.onAuthStateChanged
+  Stream<FirebaseUser> get user {
+    return _auth.onAuthStateChanged;
     //.map((FirebaseUser user) => _userFromFirebaseUser(user));
-    .map(_userFromFirebaseUser);
+    // .map(_userFromFirebaseUser);
   }
 
   // sign in with email & password
@@ -23,12 +24,28 @@ class AuthService {
     try {
       AuthResult result = await _auth.signInWithEmailAndPassword(email: email, password: password);
       FirebaseUser user = result.user;
-      return _userFromFirebaseUser(user);
+      return user;
+      //return _userFromFirebaseUser(user);
     } catch (e) {
       print(e.toString());
       return null;
     }
   } 
+
+  Stream<FirebaseUser> get anonUser {
+    return _auth.onAuthStateChanged;
+  }
+
+  Future signInAnonymously() async {
+    try {
+      AuthResult result = await _auth.signInAnonymously();
+      await DatabaseService(uid: result.user.uid).updateUserData('', '', []);
+      return result.user;
+    } catch (e) {
+      print(e.toString());
+      return null;
+    }
+  }
 
   // register with email & password
   Future registerWithEmailAndPassword(String email, String password) async {

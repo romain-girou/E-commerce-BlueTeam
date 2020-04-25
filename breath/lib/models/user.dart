@@ -1,6 +1,7 @@
 class User {
 
   final String uid;
+
   User ({this.uid});
 
 }
@@ -22,5 +23,11 @@ class Product {
   double price;
 
   Product({this.name, this.price});
+
+  @override
+  String toString() {
+    // TODO: implement toString
+    return '{${this.name}, ${this.price}}';
+  }
 
 }

@@ -119,7 +119,9 @@ class LandingPageMobile extends StatelessWidget {
                       ),
                     ),
                     RaisedButton ( // Order button
-                      onPressed: () {Navigator.pushNamed(context, SignInRoute);},
+                      onPressed: () {
+                        Navigator.pushNamed(context, SignInRoute);
+                      },
                       textColor: Colors.white,
                       elevation: 3.0,
                       padding: const EdgeInsets.all(0.0),
@@ -150,10 +152,11 @@ class LandingPageMobile extends StatelessWidget {
                           ),
                         ),
                         padding: const EdgeInsets.all(15.0),
-                        child: const Text(
+                          child: Text(
                             'DISCOVER NOW',
-                            style: TextStyle(fontSize: 30)
-                        ),
+                            style: TextStyle(fontSize: 30),
+                            textAlign: TextAlign.center,
+                          ),
                       ),
                     ),
                   ],

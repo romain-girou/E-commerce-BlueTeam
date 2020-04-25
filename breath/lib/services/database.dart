@@ -17,9 +17,9 @@ class DatabaseService {
     });
   }
 
-  Future updateUserProducts (Product myProduct) async {
-    return await userCollection.document(uid).setData({
-      'products': myProduct
+  Future updateUserProducts (List<dynamic> myProduct) async {
+    return await userCollection.document(uid).updateData({
+      'products': myProduct,
     });
   }
 

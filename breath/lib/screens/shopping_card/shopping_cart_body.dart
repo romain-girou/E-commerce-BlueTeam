@@ -25,10 +25,10 @@ class _ShoppingCartBodyState extends State<ShoppingCartBody> {
         children: <Widget>[
           RaisedButton(
             onPressed: () async {
-              myProductToAdd = new Product(name: 'bouteille', price: 50.0);
-              myProduct2ToAdd = new Product(name: 'vin', price: 20.0);
-              userData.myProduct.add(myProductToAdd);
-              userData.myProduct.add(myProduct2ToAdd);
+              // myProductToAdd = new Product(name: 'bouteille', price: 50.0);
+              // myProduct2ToAdd = new Product(name: 'vin', price: 20.0);
+              // userData.myProduct.add(myProductToAdd);
+              // userData.myProduct.add(myProduct2ToAdd);
               for (var i = 0; i < userData.myProduct.length + 1; i++) {
                 print(userData.myProduct[i].name);
                 print(userData.myProduct[i].price);
