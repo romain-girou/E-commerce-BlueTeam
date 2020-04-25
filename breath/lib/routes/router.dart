@@ -3,6 +3,9 @@ import 'package:breath_seinajoki/authenticate/sign_in.dart';
 import 'package:breath_seinajoki/routes/routes_names.dart';
 import 'package:breath_seinajoki/screens/ProductPage/product_page_desktop.dart';
 import 'package:breath_seinajoki/screens/homeView/home_view.dart';
+import 'package:breath_seinajoki/screens/paymentPage/payment.dart';
+import 'package:breath_seinajoki/screens/paymentPage/shoppingCard.dart';
+import 'package:breath_seinajoki/screens/paymentPage/thankPage.dart';
 import 'package:breath_seinajoki/screens/shopping_card/shopping_cart.dart';
 import 'package:flutter/material.dart';
 import 'package:fluro/fluro.dart';
@@ -24,10 +27,16 @@ class FluroRouter {
           Register());
   static Handler _shoppingCarthandler = Handler(
     handlerFunc: (BuildContext context, Map<String, dynamic> params) =>
-        ShoppingCart());
+        ShoppingCard());
   static Handler _productCarthandler = Handler(
     handlerFunc: (BuildContext context, Map<String, dynamic> params) =>
-        ProductPageDesktop());       
+        ProductPageDesktop());
+  static Handler _paymentCarthandler = Handler(
+    handlerFunc: (BuildContext context, Map<String, dynamic> params) =>
+        Payment());   
+  static Handler _thanksCarthandler = Handler(
+    handlerFunc: (BuildContext context, Map<String, dynamic> params) =>
+        ThankPage());   
   // static Handler _wrapperhandler = Handler(
   //     handlerFunc: (BuildContext context, Map<String, dynamic> params) =>
   //         Wrapper());
@@ -52,6 +61,14 @@ class FluroRouter {
     router.define(
       ProductRoute,
       handler: _productCarthandler)
+    ;
+    router.define(
+      PaymentRoute,
+      handler: _paymentCarthandler)
+    ;
+    router.define(
+      ThankRoute,
+      handler: _thanksCarthandler)
     ;
     // router.define(
     //   WrapperRoute, 
