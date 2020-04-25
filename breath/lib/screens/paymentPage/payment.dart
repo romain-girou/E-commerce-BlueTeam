@@ -2,7 +2,6 @@ import 'package:breath_seinajoki/routes/routes_names.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:breath_seinajoki/shared/constants.dart';
-import 'package:breath_seinajoki/screens/NavigationBar/my_app_bar.dart';
 import 'package:provider/provider.dart';
 import 'package:breath_seinajoki/models/user.dart';
 import 'package:breath_seinajoki/services/paymentForm.dart';
