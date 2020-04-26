@@ -2,8 +2,11 @@
 import 'package:breath_seinajoki/models/user.dart';
 import 'package:breath_seinajoki/routes/routes_names.dart';
 import 'package:breath_seinajoki/screens/NavigationBar/my_app_bar.dart';
+import 'package:breath_seinajoki/services/database.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:provider/provider.dart';
 
 final databaseReference = Firestore.instance;
@@ -14,35 +17,19 @@ class ShoppingCard extends StatefulWidget {
 }
 
 class _ShoppingCardState extends State<ShoppingCard> {
-  // String data = '';
-
   @override
   Widget build(BuildContext context) {
-    User user;
 
-    try {
-      user = Provider.of<User>(context);
-      print(user.uid);
-    } catch (e) {
-      // test
-      user = User(uid: '20b32OVMo1RCgsPUkaLdZ60vbKo2');
-    }
+    final products = Provider.of<UserData>(context);
 
-    var dataList = new List(4);
-    dataList[0] = new Map();
-    dataList[1] = new Map();
-    dataList[2] = new Map();
-    dataList[3] = new Map();
-    dataList[0]['name'] = 'France bottle';
-    dataList[0]['price'] = '50';
-    dataList[1]['name'] = 'Finland bottle';
-    dataList[1]['price'] = '50';
-    dataList[2]['name'] = 'Canada bottle';
-    dataList[2]['price'] = '70';
-    dataList[3]['name'] = 'Canada bottle';
-    dataList[3]['price'] = '70';
+    if (products == null) {
+      return SpinKitRotatingCircle(
+        color: Colors.red,
+        size: 50.0,
+      );
+    }else {
     
-
+    var dataList = products.myProduct;
     int nbFrance = 0;
     int nbFinland = 0;
     int nbCanada = 0;
@@ -53,14 +40,13 @@ class _ShoppingCardState extends State<ShoppingCard> {
       dataList[i]['name'] == 'France bottle' ? nbFrance += 1 : null;
       dataList[i]['name'] == 'Finland bottle' ? nbFinland += 1 : null;
       dataList[i]['name'] == 'Canada bottle' ? nbCanada += 1 : null;
-      total += int.parse(dataList[i]['price']);
+      total += dataList[i]['price'];
     }
-
-    print(dataList[0]['name']);
 
     nbFinland != 0 ? itemCounter += 1 : itemCounter += 0;
     nbFrance != 0 ? itemCounter += 1 : itemCounter += 0;
     nbCanada != 0 ? itemCounter += 1 : itemCounter += 0;
+
 
     return Scaffold(
       appBar: MyAppBar(height: 110),
@@ -112,6 +98,7 @@ class _ShoppingCardState extends State<ShoppingCard> {
       ),
     );
   }
+}
 }
 
 class CardProduct extends StatelessWidget {

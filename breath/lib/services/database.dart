@@ -24,7 +24,7 @@ class DatabaseService {
   }
 
   // products list from snapshot
-  List<Product> _productsListFromSnapshot(QuerySnapshot snapshot) {
+  List<Map> _productsListFromSnapshot(QuerySnapshot snapshot) {
     return snapshot.documents.map((doc) {
       return doc.data['products'];
     }).toList();
@@ -40,10 +40,18 @@ class DatabaseService {
     );
   }
 
+  UserData _userDataProduct (DocumentSnapshot snapshot) {
+    return UserData(myProduct: snapshot.data['products']);
+  }
+
   // get user doc stream
   Stream<UserData> get userData {
     return userCollection.document(uid).snapshots()
       .map(_userDataFromSnapshot);
+  }
+
+  Stream<UserData> get product {
+    return userCollection.document(uid).snapshots().map(_userDataProduct);
   }
 
 }

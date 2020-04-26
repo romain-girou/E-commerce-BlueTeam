@@ -125,6 +125,7 @@ class _ProductPageDesktopState extends State<ProductPageDesktop> {
                         });
                       }); 
                       await DatabaseService(uid: userData.uid).updateUserProducts(myList);
+                      print(userData.uid);
                     },
                     textColor: Colors.white,
                     elevation: 3.0,

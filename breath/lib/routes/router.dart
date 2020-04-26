@@ -5,6 +5,7 @@ import 'package:breath_seinajoki/screens/ProductPage/product_page_desktop.dart';
 import 'package:breath_seinajoki/screens/homeView/home_view.dart';
 import 'package:breath_seinajoki/screens/paymentPage/payment.dart';
 import 'package:breath_seinajoki/screens/paymentPage/shoppingCard.dart';
+import 'package:breath_seinajoki/screens/paymentPage/shopping_card_stream.dart';
 import 'package:breath_seinajoki/screens/paymentPage/thankPage.dart';
 import 'package:breath_seinajoki/screens/shopping_card/shopping_cart.dart';
 import 'package:flutter/material.dart';
@@ -27,7 +28,7 @@ class FluroRouter {
           Register());
   static Handler _shoppingCarthandler = Handler(
     handlerFunc: (BuildContext context, Map<String, dynamic> params) =>
-        ShoppingCard());
+        ShoppingCardStream());
   static Handler _productCarthandler = Handler(
     handlerFunc: (BuildContext context, Map<String, dynamic> params) =>
         ProductPageDesktop());
@@ -55,7 +56,7 @@ class FluroRouter {
       handler: _registerhandler)
     ;
     router.define(
-      ShoppingCartRoute, 
+      ShoppingCardRoute, 
       handler: _shoppingCarthandler)
     ;
     router.define(
