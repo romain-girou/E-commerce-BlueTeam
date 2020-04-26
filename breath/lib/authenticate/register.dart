@@ -1,3 +1,4 @@
+import 'package:breath_seinajoki/routes/routes_names.dart';
 import 'package:breath_seinajoki/shared/loading.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
@@ -126,8 +127,8 @@ class _RegisterState extends State<Register> {
                           setState(() {
                             loading = true;
                           });
-                          print (await _auth.registerWithEmailAndPassword(email, password));
                           dynamic result = await _auth.registerWithEmailAndPassword(email, password);
+                          Navigator.pushNamed(context, HomeRoute);
                           if (result == null) {
                             setState(() {
                               loading = false;

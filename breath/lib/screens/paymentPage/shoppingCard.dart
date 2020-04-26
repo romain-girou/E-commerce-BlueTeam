@@ -73,7 +73,7 @@ class _ShoppingCardState extends State<ShoppingCard> {
                             price: 50,
                             nbProducts: nbFrance,
                           )
-                        : Text('alouette'),
+                        : Container(),
                     nbCanada != 0
                         ? CardProduct(
                             country: 'Canada bottle',
@@ -115,50 +115,48 @@ class CardProduct extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Expanded(
-      child: Padding(
-        padding: const EdgeInsets.all(20.0),
-        child: Container(
-            child: Column(
-          children: [
-            Container(
-              child: Padding(
-                padding:
-                    const EdgeInsets.symmetric(vertical: 8.0, horizontal: 15),
-                child: Container(
-                    height: 1,
-                    decoration:
-                        BoxDecoration(border: Border.all(color: Colors.black))),
-              ),
+    return Padding(
+      padding: const EdgeInsets.all(20.0),
+      child: Container(
+          child: Column(
+        children: [
+          Container(
+            child: Padding(
+              padding:
+                  const EdgeInsets.symmetric(vertical: 8.0, horizontal: 15),
+              child: Container(
+                  height: 1,
+                  decoration:
+                      BoxDecoration(border: Border.all(color: Colors.black))),
             ),
-            Center(
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Image.asset(
-                    'assets/images/Bottle_transparent.png',
-                    height: 150,
-                  ),
-                  SizedBox(
-                    width: 50,
-                  ),
-                  Column(
-                    children: [
-                      Text(
-                        country,
-                        style: TextStyle(fontSize: 20),
-                      ),
-                      Text('${price * nbProducts}€'),
-                      Text('x $nbProducts'),
-                    ],
-                  ),
-                ],
-              ),
+          ),
+          Center(
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Image.asset(
+                  'assets/images/Bottle_transparent.png',
+                  height: 150,
+                ),
+                SizedBox(
+                  width: 50,
+                ),
+                Column(
+                  children: [
+                    Text(
+                      country,
+                      style: TextStyle(fontSize: 20),
+                    ),
+                    Text('${price * nbProducts}€'),
+                    Text('x $nbProducts'),
+                  ],
+                ),
+              ],
             ),
-          ],
-        )),
-      ),
-    );
+          ),
+        ],
+      )),
+    ); 
   }
 }
 
